@@ -1,6 +1,9 @@
-REM @echo off
+:: Build the solution from cmd without opening Visual Studio.
+@echo off
+
+call env.bat
+
 cd build
-call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" x64
 echo .
 
 set BUILD_CFG=Release
