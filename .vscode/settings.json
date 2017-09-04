@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.scm": "racket",
+        "iosfwd": "cpp",
+        "xlocnum": "cpp"
+    }
+}
