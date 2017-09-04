@@ -3,8 +3,9 @@ project(practice-cpp)
 
 
 FOREACH(folder 
-        helloworld
-        bstree
+        # helloworld
+        # bstree
+        hrAttributeParser
     )
 
     ADD_SUBDIRECTORY(${folder})
