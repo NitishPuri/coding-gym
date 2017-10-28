@@ -1,3 +1,6 @@
+
+// https://www.hackerrank.com/challenges/subset-component
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
