@@ -8,6 +8,7 @@
 #include <algorithm>
 using namespace std;
 
+// Sum of all the even fibonacci numbers less than the given input.
 void processQuery(){
     long long n;
     cin >> n;

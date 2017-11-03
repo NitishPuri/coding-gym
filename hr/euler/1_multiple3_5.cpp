@@ -8,12 +8,14 @@
 #include <algorithm>
 using namespace std;
 
+// sum of all multiples of 'x' less than 'm'
 long sumX(int m, int x){
     long i = (m-1)/x;
     
     return x*i*(i+1)/2;
 }
 
+// sum of all multiples of '3' or '5' less than 'm'
 long sum3or5(int m){
     long sum = 0;
     
