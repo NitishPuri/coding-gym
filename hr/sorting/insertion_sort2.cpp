@@ -26,7 +26,7 @@ int main() {
             if(arr[j] > v){
                 arr[j+1] = arr[j];
             }
-            else{ break; }                        
+            else{ break; }
         }
         
         // insert

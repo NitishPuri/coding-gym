@@ -30,7 +30,7 @@ int main() {
     
     cin >> n >> m;
     
-    vector<map<int, int>> g(n+1);
+    vector<map<int, int> > g(n+1);
     
     for(int i = 0; i < m ; i++){
         int u, v, w;
