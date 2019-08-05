@@ -2,6 +2,7 @@
     "files.associations": {
         "*.scm": "racket",
         "iosfwd": "cpp",
-        "xlocnum": "cpp"
+        "xlocnum": "cpp",
+        "vector": "cpp"
     }
 }

@@ -1,15 +1,15 @@
 {
     "version": "0.2.0",
     "configurations": [
-
         {
-            "name": "(Windows) Launch",
+            "name": "(msvc) Launch",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/build/${project}/${}a.exe",
+            "preLaunchTask": "msvc build",
+            "program": "${workspaceFolder}/build/${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceRoot}",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true
         }
