@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// https://www.hackerrank.com/challenges/reverse-shuffle-merge/problem
+
 // Complete the reverseShuffleMerge function below.
 string reverseShuffleMerge(string s)
 {
@@ -37,7 +39,7 @@ string reverseShuffleMerge(string s)
             if (cm.second > 0)
                 return cm.first;
         }
-        return '\0';
+        return char('a' - 1);
     };
 
     // auto smallest = m.begin()->first;
@@ -95,7 +97,7 @@ string reverseShuffleMerge(string s)
             if (ms[*itr] > 0)
             {
                 ms[*itr]--;
-                if (*itr < best_seen)
+                if (*itr < best_seen && m[*itr] > 0)
                 {
                     best_seen = *itr;
                     best_index = itr;
