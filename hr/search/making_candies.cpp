@@ -7,8 +7,72 @@ using namespace std;
 vector<string> split_string(string);
 
 // Complete the minimumPasses function below.
-long minimumPasses(long m, long w, long p, long n)
+using ull = unsigned long long;
+ull minimumPasses(ull m, ull w, ull p, ull n)
 {
+    ull curr = 0;
+    ull days = 0;
+
+    // long min_days = 0;
+    // long max_days = ceill(n / (m * w));
+
+    // while (min_days != max_days)
+    // {
+    //     long mid = (min_days + max_days) / 2;
+    //     // Calculate how much can be produced in 'mid' days
+    //     long min_production = m * w * mid;
+    // }
+
+    while (curr < n)
+    {
+        if (curr >= p)
+        {
+            ull rem = n - curr;
+            if (rem > m * w)
+            {
+                ull mw = curr / p;
+
+                if (m >= w + mw)
+                {
+                    w += mw;
+                }
+                else if (w >= m + mw)
+                {
+                    m += mw;
+                }
+                else
+                {
+                    ull total = m + w + mw;
+                    m = total / 2;
+                    w = total - m;
+                }
+
+                curr = (curr % p);
+            }
+        }
+
+        // Skip ahead to buy more resources.
+        ull skip = (p > curr) ? ceill(long double(p - curr) / (m * w)) : 1;
+
+        if (skip == 0)
+        {
+            skip = 1;
+        }
+
+        if (curr + (skip * m * w) > n)
+        {
+            ull rem = n - curr;
+            if (rem < m * w)
+            {
+                skip = 1;
+            }
+        }
+        curr += skip * m * w;
+
+        days += skip;
+    }
+
+    return days;
 }
 
 int main()
@@ -24,11 +88,11 @@ int main()
 
     long w = stol(mwpn[1]);
 
-    long p = stol(mwpn[2]);
+    unsigned long long p = stoull(mwpn[2]);
 
-    long n = stol(mwpn[3]);
+    unsigned long long n = stoull(mwpn[3]);
 
-    long result = minimumPasses(m, w, p, n);
+    ull result = minimumPasses(m, w, p, n);
 
     cout << result << "\n";
 
