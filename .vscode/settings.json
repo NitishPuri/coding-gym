@@ -3,6 +3,10 @@
         "*.scm": "racket",
         "iosfwd": "cpp",
         "xlocnum": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "xutility": "cpp",
+        "type_traits": "cpp",
+        "string": "cpp",
+        "functional": "cpp"
     }
 }
