@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/s10-binomial-distribution-2
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -29,6 +31,51 @@ int comb(int n, int x) {
 // Returns probability of 'x' success in 'n' trials.
 double binomial(int n, int x, double p) {
     return comb(n, x) * pow(p, x) * pow(1-p, n-x);
+}
+
+// Poisson coefficient for 'k' successes when average number of successes is 'l'.
+// k ==> Number of required success.
+// l ==> Average number of success.
+double poisson(int k, double l) {
+    return (pow(l, k) * exp(-l)) / fact(k);
+}
+
+// 
+double n_std_dev(double m, double sd, double a){
+    a = (a - m) / sd;
+    double b = erf(a/sqrt(2.));
+    return 0.5*(1+b);
+}
+
+constexpr double sqrt_2pi =sqrt(2. * M_PI);
+void normal(double m, double sd, double x) {
+    x = (x - m) / sd;
+    return (1. / (sqrt_2pi * sd) ) * exp(- pow(x) / 2.);
+}
+
+double mean(const vector<double>& x) {
+    return accumulate(x.begin(), x.end(), 0.0) / x.size();
+}
+
+double stddev(const vector<double>& x, double mean) {
+
+    auto squared_diff = [mean](double a, double b){
+        return a + pow(b - mean, 2);
+    };
+
+    return sqrt(accumulate(x.begin(), x.end(), 0., squared_diff) / x.size());
+}
+
+double covariance(const vector<double>& x, const vector<double>& y,
+                  double mx, double my) {
+    // auto mx = mean(x), my = mean(y);
+
+    double res = 0.0;
+    for(int i = 0; i < x.size(); ++i) {
+        res += (x[i] - mx) * (y[i] - my);
+    }
+
+    return res / x.size();
 }
 
 int main() {
