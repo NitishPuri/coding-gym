@@ -93,12 +93,32 @@ vector<size_t> rankify(const vector<T>& x) {
         return x[i1] < x[i2];
     });
 
+    
     for(size_t i = 0; i < x.size(); ++i) {
-        rank[indices[i]] = i;   // 0 based ranking. i.e. rank 0 is the smallest element.
+        // 0 based ranking. i.e. rank 0 is the smallest element.
+        rank[indices[i]] = i;   
     }
 
     return rank;
 }
+
+
+// Spearman coefficient in case of unique values in datasets.
+double spearman(const vector<double>& x, const vector<double>& y) {
+    auto n = x.size();
+    
+    auto rank_x = rankify(x);
+    auto rank_y = rankify(y);
+
+    double sum_d = 0.0;
+    for(size_t i = 0; i < n; ++i) {
+        sum_d += pow(rank_x[i] - rank_y[i], 2);
+    }
+
+    auto res = 1. - (6 * sum_d) / (n * (n*n - 1));
+    return res;
+}
+
 
 
 
