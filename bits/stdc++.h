@@ -11,5 +11,11 @@
 #include <functional>
 #include <queue>
 #include <map>
+#include <sstream>
 
 #define and &&
+
+#define OPEN_INPUT_FILE(s, f) ifstream s(f); \
+    if(!s.is_open()) {                       \
+        cout << "Could not open " << f << endl; \
+        getchar(); return 0; }               \
