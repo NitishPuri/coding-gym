@@ -11,3 +11,5 @@
 #include <functional>
 #include <queue>
 #include <map>
+
+#define and &&
