@@ -171,6 +171,26 @@ lease_sq_reg(const std::vector<std::pair<double, double>> &samples,
   return reg;
 }
 
+// Example code for file input/output scaffolding.
+void setup_input() {
+    ifstream fin("input.txt");
+    if(!fin.is_open()) {
+        cout << "Bad input." << endl;
+        return 0;
+    }
+
+    ifstream fres("results.txt");
+    if(!fres.is_open()) {
+        cout << "Bad input." << endl;
+        return 0;
+    }
+
+    int T;
+    fin >> T;
+    fin.ignore(numeric_limits<streamsize>::max(), '\n');
+}
+
+
 // Bidirectional map.
 template <typename A, typename B> struct bi_map {
   bi_map(const std::map<A, B> &map)
