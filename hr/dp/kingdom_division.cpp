@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/kingdom-division/problem
+// TODO NP : UNSOLVED
 
 #include <cmath>
 #include <cstdio>
