@@ -1,11 +1,7 @@
 // https://www.hackerrank.com/challenges/s10-binomial-distribution-2
 
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-#include <iomanip>
+#include <bits/stdc++.h>
+
 using namespace std;
 
 // n!
@@ -47,10 +43,13 @@ double n_std_dev(double m, double sd, double a){
     return 0.5*(1+b);
 }
 
-constexpr double sqrt_2pi =sqrt(2. * M_PI);
-void normal(double m, double sd, double x) {
+#ifndef M_PI
+#define M_PI 3.14
+#endif
+double sqrt_2pi = sqrt(2. * M_PI);
+double normal(double m, double sd, double x) {
     x = (x - m) / sd;
-    return (1. / (sqrt_2pi * sd) ) * exp(- pow(x) / 2.);
+    return (1. / (sqrt_2pi * sd) ) * exp(- pow(x, 2) / 2.);
 }
 
 double mean(const vector<double>& x) {
