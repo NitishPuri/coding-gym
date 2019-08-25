@@ -1,5 +1,6 @@
 
 // https://www.hackerrank.com/challenges/subset-component
+// TODO NP : UNSOLVED
 
 #include <cmath>
 #include <cstdio>
