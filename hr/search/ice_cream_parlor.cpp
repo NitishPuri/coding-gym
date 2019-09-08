@@ -4,8 +4,18 @@ using namespace std;
 
 vector<string> split_string(string);
 
+#define loop(var, initial, final) for (int var = initial; var < final; var++)
+
 // Complete the icecreamParlor function below.
-vector<int> icecreamParlor(int m, vector<int> arr) {}
+vector<int> icecreamParlor(int m, vector<int> arr) {
+  loop(i, 0, arr.size()) {
+    loop(j, i + 1, arr.size()) {
+      if (arr[i] + arr[j] == m)
+        return {i + 1, j + 1};
+    }
+  }
+  return {};
+}
 
 int main() {
   ofstream fout(getenv("OUTPUT_PATH"));
