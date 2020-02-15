@@ -15,7 +15,7 @@
 #include <unordered_set>
 #include <vector>
 
-#define and&&
+#define and &&
 
 #define OPEN_INPUT_FILE(s, f)                                                  \
   ifstream s(f);                                                               \
