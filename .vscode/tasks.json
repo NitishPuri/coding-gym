@@ -7,7 +7,7 @@
             "options": {
                 "cwd": "${workspaceFolder}/build"
             },
-            "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\VsDevCmd.bat\" && cl.exe /EHsc /Zi /I ${workspaceFolder} /Fe: ${workspaceFolder}/build/${fileBasenameNoExtension}.exe",
+            "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\VsDevCmd.bat\" && cl.exe /EHsc /Zi /I ${workspaceFolder} /Fe: ${workspaceFolder}/build/${fileBasenameNoExtension}.exe",
             "args": [
                 "${file}"
             ],
@@ -21,21 +21,6 @@
                 "showReuseMessage": false
             },
             "problemMatcher": "$msCompile"
-            // "problemMatcher": {
-            //     "owner": "cpp",
-            //     "fileLocation": [
-            //         "relative",
-            //         "${workspaceFolder}"
-            //     ],
-            //     "pattern": {
-            //         "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
-            //         "file": 1,
-            //         "line": 2,
-            //         "column": 3,
-            //         "severity": 4,
-            //         "message": 5
-            //     }
-            // }
         },
         {
             "type": "shell",
@@ -48,6 +33,25 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "${file}"
             ]
-        }
+        },
+        {
+            "label": "msvc run",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+            "command": "${fileBasenameNoExtension}.exe",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "clear": true,
+                "showReuseMessage": false
+            },
+            "problemMatcher": "$msCompile"
+        },
+
     ]
 }
