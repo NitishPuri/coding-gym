@@ -8,10 +8,10 @@
             "preLaunchTask": "msvc build",
             "program": "${workspaceFolder}/build/${fileBasenameNoExtension}.exe",
             "args": [],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": true
+            "console": "integratedTerminal"
         }
     ]
 }

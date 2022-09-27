@@ -23,18 +23,6 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "type": "shell",
-            "label": "cl.exe build active file",
-            "command": "cl.exe",
-            "args": [
-                "/Zi",
-                "/EHsc",
-                "/Fe:",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "${file}"
-            ]
-        },
-        {
             "label": "msvc run",
             "type": "shell",
             "options": {
@@ -43,14 +31,15 @@
             "command": "${fileBasenameNoExtension}.exe",
             "group": {
                 "kind": "build",
-                "isDefault": true
+                "isDefault": false
             },
             "presentation": {
                 "reveal": "always",
                 "clear": true,
                 "showReuseMessage": false
             },
-            "problemMatcher": "$msCompile"
+            "problemMatcher": "$msCompile",
+            "dependsOn" : ["msvc build"]
         },
 
     ]
