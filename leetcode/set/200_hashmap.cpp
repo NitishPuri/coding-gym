@@ -60,7 +60,7 @@ int main() {
     s.put(2, 2);
     auto res = s.get(1);
     res = s.get(3);
-    s.put(2);
+    // s.put(2);
     res = s.get(2);
     s.remove(2);
     s.get(1000000);

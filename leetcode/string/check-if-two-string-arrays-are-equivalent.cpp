@@ -3,6 +3,8 @@
 #include <vector>
 #include <string>
 
+using namespace std;
+
 // Input: word1 = ["ab", "c"], word2 = ["a", "bc"]
 // Output: true
 // Explanation:
