@@ -8,6 +8,9 @@
 
 // n45678 = n9999 + n(10000 , 45678) = 10000 + 3(n9999) + n(5678) = n(999)
 
+#include <vector>
+
+using namespace std;
 
 class Solution {
 public:
