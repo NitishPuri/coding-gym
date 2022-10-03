@@ -11,7 +11,7 @@ class Solution {
             res.push_back(sol);
             return;
         }
-        if(k >= sol.size() || n <= 0) {
+        if(k <= sol.size() || n <= 0) {
             return;
         }                
         for (int i = sol.empty() ? 1 : sol.back() + 1; i <= 9; ++i) {            
