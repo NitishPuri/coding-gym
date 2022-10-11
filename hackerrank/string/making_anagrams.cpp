@@ -1,5 +1,5 @@
 // https://www.hackerrank.com/challenges/making-anagrams/problem
-// string easy
+// string, easy
 
 #include <bits/stdc++.h>
 

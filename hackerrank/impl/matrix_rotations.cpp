@@ -1,5 +1,5 @@
 // https://www.hackerrank.com/challenges/matrix-rotation-algo/problem
-// implementation, hard, matrix, 
+// implementation, hard, matrix
 
 #include <bits/stdc++.h>
 

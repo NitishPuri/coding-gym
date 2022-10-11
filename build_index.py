@@ -1,7 +1,7 @@
 import os
 import csv
 
-source_dirs = ["leetcode"]
+source_dirs = ["leetcode", "hackerrank"]
 
 
 def extract_meta_info(filepath):
@@ -26,7 +26,7 @@ def write_data():
                     name = f.split('.')[0]
                     path = os.path.join(source, cat, f)
                     url, tags = extract_meta_info(path)
-                    tags += ";" + source + ";" + cat
+                    tags += ";" + source
                     data_writer.writerow([name, path, url, tags])
                     all_tags.append(tags)
     
@@ -36,11 +36,13 @@ def write_data():
         for t in tag.split(';'):
             if t != '':
                 tags[t] = tags.get(t, 0) + 1
-    print(tags)
+    # print(tags)
+    tags_sorted = sorted(tags)
+    # print(tags_sorted)
     with open('tags.csv', 'w', newline='') as data:
         data_writer = csv.writer(data)
         # data_writer.writerows(tags)
-        for tag in tags:
+        for tag in tags_sorted:
             data_writer.writerow([tag, tags[tag]])
 
 

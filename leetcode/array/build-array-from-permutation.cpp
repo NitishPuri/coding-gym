@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/build-array-from-permutation/
-// easy, aray, simulation
+// easy, array, simulation
 
 #include <vector>
 using namespace std;
