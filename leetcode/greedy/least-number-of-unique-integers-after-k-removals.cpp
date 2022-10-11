@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/
+// medium, array, hash-table, greedy, sorting, counting
 
 // 4 3 1 1 3 3 2
 // 4 : 1 , 3 : 3, 1: 2, 2 : 1

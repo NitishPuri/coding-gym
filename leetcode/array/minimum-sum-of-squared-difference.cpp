@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/minimum-sum-of-squared-difference/
+// medium, math, sorting, priority-queue, array
 
 //     1  2  3  4
 //     2 10 20 19

@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/
+// medium, greedy, sorting, array
 
 #include <vector>
 #include <algorithm>

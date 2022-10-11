@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/self-dividing-numbers/
+// easy, math
 
 #include <vector>
 using namespace std;

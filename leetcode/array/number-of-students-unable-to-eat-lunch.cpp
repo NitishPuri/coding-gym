@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/
+// easy, stack, queue, simulation, array
 
 // 1 1 1 0 0 1 --> 1: 3, 0: 0
 // 0 1 1

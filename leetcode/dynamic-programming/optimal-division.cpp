@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/optimal-division/
+// medium, array, math, dynamic-programming
 
 // 2 3 4
 // 

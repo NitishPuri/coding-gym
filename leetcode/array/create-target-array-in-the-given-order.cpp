@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/create-target-array-in-the-given-order/
-// simulation, easy
+// simulation, easy, array
 
 #include <vector>
 #include <list>

@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/
+// hard, array, math, sorting, priority-queue, number-theory
 
 // 2 3 2 4 3 -> 2: 2, 3: 2, 4: 1
 // 9 6 9 3 15 -> 1, 3

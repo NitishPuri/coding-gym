@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/number-of-people-aware-of-a-secret/
+// medium, dynamic-programming, queue, simulation
 
 // Day -> #People / Added / Removed / Expr
 //  1  ->  1      /  1    /    0    / + 1      = 1

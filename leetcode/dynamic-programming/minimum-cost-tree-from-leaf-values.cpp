@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
+// medium, dynamic-programming, stack, greedy, monotonic-stack
 
 // copied from https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/discuss/340033/C%2B%2B-with-comments
 

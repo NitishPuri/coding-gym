@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/the-kth-factor-of-n/
+// medium, math
 
 class Solution {
 public:

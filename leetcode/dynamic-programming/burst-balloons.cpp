@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/burst-balloons/
+// hard, array, dynamic-programming
 
 #include <vector>
 

@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/
+// hard, greedy, sliding-window, prefix-sum, array
 
 #include <iostream>
 #include <vector>

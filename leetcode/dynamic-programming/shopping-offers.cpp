@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/shopping-offers/
+// medium, array, dynamic-programming, backtracking, bit-manipulation, memoization, bitmask
 
 #include <map>
 #include <vector>

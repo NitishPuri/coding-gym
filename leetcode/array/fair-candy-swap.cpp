@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/fair-candy-swap/
-// hash-table, binary-search, sorting, easy
+// hash-table, binary-search, sorting, easy, array
 
 #include <vector>
 #include <algorithm>

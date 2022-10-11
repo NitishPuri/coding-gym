@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/game-of-life/
-// medium, matrix, simulation
+// medium, matrix, simulation, array
 
 #include <vector>
 

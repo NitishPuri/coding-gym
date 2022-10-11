@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/exam-room/
-// design, ordered-set, medium
+// design, ordered-set, medium, array
 
 #include <iostream>
 #include <list>

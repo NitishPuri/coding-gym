@@ -1,4 +1,6 @@
-// https://leetcode.com/explore/learn/card/queue-stack/239/conclusion/1391/
+// https://leetcode.com/problems/keys-and-rooms/
+// medium, depth-first-search, breadth-first-search, graph
+
 
 #include <vector>
 #include <set>

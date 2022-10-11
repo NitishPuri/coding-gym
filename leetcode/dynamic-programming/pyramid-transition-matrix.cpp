@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/pyramid-transition-matrix/ 
+// medium, bit-manipulation, dynamic-programming, depth-first-search, breadth-first-search
 
 #include <vector>
 #include <map>

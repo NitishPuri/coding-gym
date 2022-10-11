@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/defuse-the-bomb/
+// easy, array
 
 #include <vector>
 

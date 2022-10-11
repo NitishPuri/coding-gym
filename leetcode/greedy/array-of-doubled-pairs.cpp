@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/array-of-doubled-pairs/
+// medium, array, hash-table, greedy, sorting
 
 // 4 -2 2 -4
 // -4: 1, -2: 1, 2: 1, 4: 1

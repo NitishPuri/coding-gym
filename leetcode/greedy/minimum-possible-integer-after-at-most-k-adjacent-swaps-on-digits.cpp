@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/
+// hard, string, greedy, binary-indexed-tree, segment-tree
 
 // 4321 -> 4312 -> 4132 -> 1432 -> 1342
 

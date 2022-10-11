@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/minimum-falling-path-sum/
+// medium, array, dynamic-programming, matrix
 
 #include <vector>
 

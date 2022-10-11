@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/building-h2o/
+// medium, concurrency
 
 #include <mutex>
 #include <functional>

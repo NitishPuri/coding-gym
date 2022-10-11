@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/hamming-distance/
+// easy, bit-manipulation
 
 class Solution {
 public:

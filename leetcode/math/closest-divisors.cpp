@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/closest-divisors/
+// medium, math
 
 #include <vector>
 

@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
+// medium, string, dynamic-programming
 
 // a = 61, t = 116, e = 101, 
 // "sea,eat" = min(61 + 'se,eat' , 116 + 'sea,ea')

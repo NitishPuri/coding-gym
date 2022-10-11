@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/powx-n/
+// medium, math, recursion
 
 class Solution {
 public:

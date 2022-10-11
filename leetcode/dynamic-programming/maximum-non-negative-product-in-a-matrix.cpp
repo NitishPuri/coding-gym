@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
+// medium, array, dynamic-programming, matrix
 
 // -1  -2  -3
 // -2  -3  -3

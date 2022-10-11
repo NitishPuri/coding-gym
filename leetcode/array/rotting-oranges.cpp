@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/rotting-oranges/
+// medium, breadth-first-search, matrix, array
 
 #include <vector>
 #include <unordered_set>

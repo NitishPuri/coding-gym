@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/combination-sum-iii/
+// dynamic-programming, medium, array, backtracking
 
 #include <vector>
 

@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/path-with-maximum-probability/
+// medium, graph, priority-queue, shortest-path, graph
 
 // 3 vert
 // v[0] = {{1, 0.5}, {2, 0.2}}

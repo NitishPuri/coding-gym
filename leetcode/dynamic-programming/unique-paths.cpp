@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/unique-paths/
+// medium, math, dynamic-programming, combinatorics
 
 #include <map>
 

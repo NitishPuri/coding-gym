@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/build-array-from-permutation/
+// easy, aray, simulation
 
 #include <vector>
 using namespace std;

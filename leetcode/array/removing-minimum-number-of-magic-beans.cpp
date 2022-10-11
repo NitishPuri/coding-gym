@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/removing-minimum-number-of-magic-beans/
+// medium, sorting, prefix-sum, array
 
 #include <vector>
 #include <algorithm>

@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/word-ladder/
+// hard, hash table, string, breadth-first-search
 
 #include <string>
 #include <vector>

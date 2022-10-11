@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/number-of-digit-one/
+// hard, math, dynamic-programming, recursion
 
 // n0    = 0
 // n9    = 1

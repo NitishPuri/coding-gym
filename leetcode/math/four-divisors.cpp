@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/four-divisors/
+// medium, array, math
 
 #include <vector>
 

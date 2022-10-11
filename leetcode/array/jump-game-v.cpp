@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/jump-game-v/
-// hard, dynamic-programming, sorting
+// hard, dynamic-programming, sorting, array
 
 #include <vector>
 #include <algorithm>

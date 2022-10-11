@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/counting-bits/
+// easy, dynamic-programming
 
 #include <vector>
 

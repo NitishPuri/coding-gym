@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/minimum-time-visiting-all-points/
+// easy, array, math, geometry
 
 #include <vector>
 
