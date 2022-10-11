@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/create-binary-tree-from-descriptions/
-// medium, array, hash-table, tree, depth=first-search, breadth-first-search, binary-tree
+// medium, array, hash-table, tree, depth-first-search, breadth-first-search, binary-tree
 
 #include <vector>
 #include <unordered_map>
