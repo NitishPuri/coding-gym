@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/recursive-digit-sum/problem
+// recursion, medium
 
 #include <cmath>
 #include <cstdio>

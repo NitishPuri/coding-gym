@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/the-quickest-way-up/problem
+// graph, medium
 
 #include <cmath>
 #include <cstdio>

@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/encryption/problem
+// medium, implementation
 
 #include <bits/stdc++.h>
 

@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/equality-in-a-array/problem
+// implementation, easy
 
 #include <bits/stdc++.h>
 

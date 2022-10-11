@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/bomber-man/problem
+// implementation, medium
 
 #include <bits/stdc++.h>
 

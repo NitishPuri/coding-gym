@@ -1,3 +1,6 @@
+// https://www.hackerrank.com/challenges/sherlock-and-squares/problem
+// implementation, easy
+
 #include <bits/stdc++.h>
 
 using namespace std;

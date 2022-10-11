@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/fair-rations/problem
+// implementation, easy
 
 #include <bits/stdc++.h>
 

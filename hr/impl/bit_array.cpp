@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/bitset-1/problem
+// bit-manipulation, hard
 
 #include <algorithm>
 #include <iostream>

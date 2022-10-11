@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/the-power-sum/problem
+// recursion, medium
 
 #include <cmath>
 #include <cstdio>

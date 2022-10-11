@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/day-of-the-programmer/problem
+// implementation, easy
 
 #include <cmath>
 #include <cstdio>

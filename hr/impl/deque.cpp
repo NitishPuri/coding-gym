@@ -1,3 +1,6 @@
+// https://www.hackerrank.com/challenges/deque-stl/problem
+// implementation, medium
+
 #include <iostream>
 #include <deque> 
 #include <iterator>

@@ -1,3 +1,6 @@
+// https://www.hackerrank.com/challenges/abbr/problem
+// dynamic-programming, string, medium
+
 #include <bits/stdc++.h>
 
 using namespace std;

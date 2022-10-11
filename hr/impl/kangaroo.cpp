@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/kangaroo/problem
+// easy, implementation
 
 #include <cmath>
 #include <cstdio>

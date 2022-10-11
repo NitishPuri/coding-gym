@@ -1,4 +1,5 @@
-//  https://www.hackerrank.com/contests/projecteuler/challenges/euler004
+// https://www.hackerrank.com/contests/projecteuler/challenges/euler004
+// project-euler, math, unsolved, medium
 
 #include <cmath>
 #include <cstdio>

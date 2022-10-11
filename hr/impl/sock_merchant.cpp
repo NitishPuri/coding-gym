@@ -1,4 +1,5 @@
 //  https://www.hackerrank.com/challenges/sock-merchant/problem
+// implementation, easy
 
 #include <cmath>
 #include <cstdio>

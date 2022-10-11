@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/strange-code/problem
+// implementation, easy
 
 #include <bits/stdc++.h>
 

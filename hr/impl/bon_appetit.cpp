@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/bon-appetit/problem
+// implementation, easy
 
 #include <cmath>
 #include <cstdio>

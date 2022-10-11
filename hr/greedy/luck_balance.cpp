@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/luck-balance/problem
+// greedy, easy, matrix
 
 #include <cmath>
 #include <cstdio>

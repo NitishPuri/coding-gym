@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/even-tree/problem
+// medium, graph
 
 #include <cmath>
 #include <cstdio>

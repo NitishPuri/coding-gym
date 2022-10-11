@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/larrys-array/problem
+// implementation, medium
 
 #include <bits/stdc++.h>
 

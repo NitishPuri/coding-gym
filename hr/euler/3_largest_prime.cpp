@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/contests/projecteuler/challenges/euler003/problem
+// project-euler, math, easy
 
 #include <cmath>
 #include <cstdio>

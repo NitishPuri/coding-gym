@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem
+// medium, implementation
 
 #include <bits/stdc++.h>
 // #include

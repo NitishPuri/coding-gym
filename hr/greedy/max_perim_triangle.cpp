@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/maximum-perimeter-triangle/problem
+// greedy, easy
 
 #include <cmath>
 #include <cstdio>

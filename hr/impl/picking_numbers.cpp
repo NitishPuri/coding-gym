@@ -1,4 +1,6 @@
 // https://www.hackerrank.com/challenges/picking-numbers/problem
+// implementation, easy
+
 #include <cmath>
 #include <cstdio>
 #include <vector>

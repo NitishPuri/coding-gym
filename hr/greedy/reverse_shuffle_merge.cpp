@@ -1,11 +1,12 @@
+// https://www.hackerrank.com/challenges/reverse-shuffle-merge/problem
+// greedy, hard
+
 #include <string>
 #include <map>
 #include <iostream>
 #include <fstream>
 
 using namespace std;
-
-// https://www.hackerrank.com/challenges/reverse-shuffle-merge/problem
 
 // Complete the reverseShuffleMerge function below.
 string reverseShuffleMerge(string s)

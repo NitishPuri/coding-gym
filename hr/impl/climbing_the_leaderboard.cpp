@@ -1,4 +1,6 @@
 // https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
+// easy, implementation
+
 #include <cmath>
 #include <cstdio>
 #include <vector>

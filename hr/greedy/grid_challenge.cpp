@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/grid-challenge/problem
+// matrix, greedy, easy
 
 #include <cmath>
 #include <cstdio>

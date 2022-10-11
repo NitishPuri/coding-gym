@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/dijkstrashortreach/problem
+// graph, hard, dijkstra
 
 #include <cmath>
 #include <cstdio>

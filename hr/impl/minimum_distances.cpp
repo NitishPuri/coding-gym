@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/minimum-distances/problem
+// implementation, easy
 
 #include <bits/stdc++.h>
 

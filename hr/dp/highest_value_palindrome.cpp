@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/richie-rich/problem
+// dynamic-programming, string, medium
 
 #include <bits/stdc++.h>
 

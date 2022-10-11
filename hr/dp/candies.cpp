@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/candies/problem
+// greedy, array, dynamic-programming
 
 #include <bits/stdc++.h>
 

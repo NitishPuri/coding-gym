@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/marcs-cakewalk/problem
+// easy, greedy
 
 #include <cmath>
 #include <cstdio>

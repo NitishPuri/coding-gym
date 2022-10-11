@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/sherlock-and-cost/problem
+// dynamic-programming, medium
 
 #include <algorithm>
 #include <cmath>

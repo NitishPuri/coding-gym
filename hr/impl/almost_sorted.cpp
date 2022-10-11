@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/almost-sorted/problem
+// implementation, medium
 
 #include <bits/stdc++.h>
 

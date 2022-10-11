@@ -1,6 +1,13 @@
+// https://www.hackerrank.com/challenges/rectangular-game/problem
+// math, geometry, easy
+
 #include <bits/stdc++.h>
 
 using namespace std;
+
+struct coord {
+    int x, y;
+};
 
 // Complete the solve function below.
 int solve(vector<vector<int>> steps) {
@@ -9,14 +16,15 @@ int solve(vector<vector<int>> steps) {
         return 0;
     }
 
-    int x = INT_MAX
-    int y = INT_MAX
+    int x = INT_MAX;
+    int y = INT_MAX;
     for(auto step : steps) {
         if( step[0] < x) {
             x = step[0];
         }
     }
 
+    map<coord, int> coords;
 
     int max_yet = 0;
     for(auto step : steps) {

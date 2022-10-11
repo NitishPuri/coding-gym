@@ -1,5 +1,6 @@
 
 // https://www.hackerrank.com/challenges/subset-component
+// unsolved, graph, hard
 // TODO NP : UNSOLVED
 
 #include <cmath>

@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
+// implementation, easy
 
 #include <cmath>
 #include <cstdio>

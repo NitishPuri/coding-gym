@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/contests/projecteuler/challenges/euler002/copy-from/1303926920
+// project-euler, math, easy
 // https://projecteuler.net/problem=2
 
 #include <cmath>

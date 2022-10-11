@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/crossword-puzzle/problem
+// recursion, medium
 
 #include <cmath>
 #include <cstdio>

@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/happy-ladybugs/problem
+// implementation, easy
 
 #include <bits/stdc++.h>
 

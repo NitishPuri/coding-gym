@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/equal/problem
+// medium, dynamic-programming
 
 #include <algorithm>
 #include <cmath>

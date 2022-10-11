@@ -1,3 +1,6 @@
+// https://www.hackerrank.com/challenges/points-on-a-line/problem
+// math, geometry, easy
+
 #include <bits/stdc++.h>
 
 using namespace std;

@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/max-array-sum/problem
+// medium, array, dynamic-programming
 
 #include <bits/stdc++.h>
 

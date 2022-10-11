@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/flatland-space-stations/problem
+// implementation, easy
 
 #include <bits/stdc++.h>
 

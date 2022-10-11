@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/the-grid-search/problem
+// implementation, medium, matrix
 
 #include <bits/stdc++.h>
 

@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/two-pluses/problem
+// implementation, medium
 
 #include <bits/stdc++.h>
 

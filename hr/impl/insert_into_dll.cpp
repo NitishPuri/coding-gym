@@ -1,3 +1,6 @@
+// https://www.hackerrank.com/challenges/three-month-preparation-kit-insert-a-node-into-a-sorted-doubly-linked-list/problem
+// easy, linked-list
+
 #include <bits/stdc++.h>
 
 using namespace std;

@@ -1,5 +1,7 @@
-// https://projecteuler.net/problem=1
 // https://www.hackerrank.com/contests/projecteuler/challenges/euler001/copy-from/1303926766
+// easy, project-euler, math
+// https://projecteuler.net/problem=1
+
 
 #include <cmath>
 #include <cstdio>

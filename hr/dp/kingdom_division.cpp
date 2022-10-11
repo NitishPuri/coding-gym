@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/kingdom-division/problem
+// unsolved, dynamic-programming, medium
 // TODO NP : UNSOLVED
 
 #include <algorithm>
@@ -45,7 +46,7 @@ int main() {
   // pick a random root.
   int root = 0;
   parent[root] = 0;
-  size[root] = dfs(graph, root, parent, size);
+  size[root] = dfs(g, root, parent, size);
 
   return 0;
 }

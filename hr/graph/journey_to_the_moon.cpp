@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/journey-to-the-moon/problem
+// medium, graph
 
 #include <cmath>
 #include <cstdio>

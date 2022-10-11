@@ -1,4 +1,5 @@
 //  https://www.hackerrank.com/challenges/the-birthday-bar/problem
+// implementation, easy
 
 #include <cmath>
 #include <cstdio>

@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/drawing-book/problem
+// implementation, easy
 
 #include <cmath>
 #include <cstdio>

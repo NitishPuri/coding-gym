@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/kruskalmstrsub/problem
+// graph, medium
 
 #include <cmath>
 #include <cstdio>

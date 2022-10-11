@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/bfsshortreach/problem
+// graph, medium, breadth-first-search
 
 #include <cmath>
 #include <cstdio>

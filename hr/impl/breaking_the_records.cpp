@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
+// implementation, easy
 
 #include <cmath>
 #include <cstdio>

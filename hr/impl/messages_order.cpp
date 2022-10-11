@@ -1,3 +1,6 @@
+// https://www.hackerrank.com/challenges/messages-order/problem
+// implementation, medium
+
 #include <iostream>
 #include <algorithm>
 #include <vector>

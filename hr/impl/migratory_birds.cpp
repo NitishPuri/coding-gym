@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/migratory-birds/problem
+// implementation, easy
 
 #include <cmath>
 #include <cstdio>

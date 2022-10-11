@@ -1,4 +1,5 @@
 //  https://www.hackerrank.com/challenges/torque-and-development/problem
+// graph, medium
 
 #include <cmath>
 #include <cstdio>
