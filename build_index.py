@@ -15,6 +15,7 @@ def extract_meta_info(filepath):
 
 
 def write_data():
+    all_tags = []
     with open('index.csv', 'w', newline='') as data:
         data_writer = csv.writer(data)
         data_writer.writerow(["name", "path", "url", "tags"])
@@ -27,6 +28,21 @@ def write_data():
                     url, tags = extract_meta_info(path)
                     tags += ";" + source + ";" + cat
                     data_writer.writerow([name, path, url, tags])
+                    all_tags.append(tags)
+    
+    tags = {}
+    # process tags
+    for tag in all_tags:
+        for t in tag.split(';'):
+            if t != '':
+                tags[t] = tags.get(t, 0) + 1
+    print(tags)
+    with open('tags.csv', 'w', newline='') as data:
+        data_writer = csv.writer(data)
+        # data_writer.writerows(tags)
+        for tag in tags:
+            data_writer.writerow([tag, tags[tag]])
+
 
 
 # extract_meta_info("leetcode\\array\\1-bit-and-2-bit-characters.cpp")
