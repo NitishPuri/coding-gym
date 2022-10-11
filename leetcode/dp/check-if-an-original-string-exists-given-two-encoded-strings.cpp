@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/
+
 // copied from https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/discuss/1550682/C%2B%2B-DP-with-explanation-(56ms)
 
 #include <string>

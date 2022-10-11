@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
+
 // copied from https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/discuss/340033/C%2B%2B-with-comments
 
 //  6  2  4

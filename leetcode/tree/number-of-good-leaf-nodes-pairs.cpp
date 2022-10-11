@@ -1,4 +1,6 @@
 // https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
+// depth-first-search, breadth-first-search
+
 #include <vector>
 
 using namespace std;
