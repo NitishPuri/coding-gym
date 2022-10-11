@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/guess-number-higher-or-lower/
+// easy, binary-search, interactive
 
 /** 
  * Forward declaration of guess API.

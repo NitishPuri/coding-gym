@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/bulls-and-cows/
+// medium, hash-table, string, counting
 
 #include <string>
 #include <vector>

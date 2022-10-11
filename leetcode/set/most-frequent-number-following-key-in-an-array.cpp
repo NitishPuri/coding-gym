@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/
+// easy, array, hash-table, counting
 
 #include <unordered_map>
 

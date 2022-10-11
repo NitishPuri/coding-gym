@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values/
+// medium, string, backtracking
 
 #include <iostream>
 #include <string>

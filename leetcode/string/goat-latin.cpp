@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/goat-latin/
+// easy, string
 
 #include <string>
 #include <iostream>

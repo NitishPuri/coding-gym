@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/largest-substring-between-two-equal-characters/
+// easy, hash-table, string
 
 #include <string>
 #include <array>

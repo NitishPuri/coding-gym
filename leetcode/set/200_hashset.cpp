@@ -1,3 +1,6 @@
+// https://leetcode.com/problems/design-hashset/
+// easy, array, hash-table, linked-list, design, hash-function
+
 #include <iostream>
 #include <forward_list>
 #include <algorithm>

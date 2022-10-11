@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/shuffle-string/
+// easy, array, string
 
 #include <string>
 #include <vector>

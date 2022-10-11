@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/snapshot-array
+// medium, array, hash-table, binary-search, design
 
 #include <vector>
 #include <string>

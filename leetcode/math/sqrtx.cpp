@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/sqrtx/
-// Math, Binary Search
+// easy, math, binary-search
 
 class Solution {
 public:

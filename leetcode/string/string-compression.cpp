@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/string-compression/
+// medium, two-pointers, string
 
 #include <vector>
 #include <string>

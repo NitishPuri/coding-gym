@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/avoid-flood-in-the-city/
+// medium, array, hash-table, binary-search, greedy, priority-queue
 
 // [1, 0, 2, 3, 0, 1, 2]
 // flood = 1,0  2,2  3,3  

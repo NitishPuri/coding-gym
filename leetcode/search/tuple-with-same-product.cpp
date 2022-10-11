@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/tuple-with-same-product/
+// medium, array, hash-table
 
 #include <vector>
 #include <unordered_map>

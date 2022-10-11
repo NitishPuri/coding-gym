@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/
+// medium, array, sorting, prefix-sum
 
 #include <string>
 #include <vector>

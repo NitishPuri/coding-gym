@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/longest-uncommon-subsequence-i/
+// easy, string
 
 #include <string>
 using namespace std;

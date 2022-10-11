@@ -1,4 +1,5 @@
-// https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/submissions/
+// https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
+// easy, array, string
 
 #include <vector>
 #include <string>

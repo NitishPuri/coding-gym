@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/number-of-days-between-two-dates/
+// easy, math, string
 
 #include <iostream>
 #include <string>

@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/apply-discount-to-prices/
+// medium, string
 
 #include <iostream>
 #include <vector>

@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/html-entity-parser/
+// medium, hash-table, string
 
 
 #include <iostream>

@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/repeated-substring-pattern/
+// easy, string, string-matching
 
 // "abac aba b acab"
 // i = 0

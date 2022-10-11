@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/longest-ideal-subsequence/
+// medium, hash-table, string, dynamic-programming
 
 // acfgbd
 

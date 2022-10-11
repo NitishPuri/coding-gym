@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/my-calendar-iii/
+// hard, binary-search, design, segment-tree, ordered-set
 
 // (10, 20) -> 1
 // (50, 60) -> 1
