@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/flatten-nested-list-iterator/
+// medium, stack, depth-first-search, design, queue, iterator
 
 #include <vector>
 #include <queue>

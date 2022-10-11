@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/find-target-indices-after-sorting-array/
+// easy, binary-search, sorting
 
 #include <vector>
 #include <numeric>

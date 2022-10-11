@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/image-smoother/
+// easy, matrix
 
 #include <vector>
 using namespace std;

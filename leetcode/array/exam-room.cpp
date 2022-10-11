@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/exam-room/
+// design, ordered-set, medium
 
 #include <iostream>
 #include <list>

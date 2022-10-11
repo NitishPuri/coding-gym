@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/grid-game/
+// medium, matrix, prefix-sum
 
 #include <vector>
 
