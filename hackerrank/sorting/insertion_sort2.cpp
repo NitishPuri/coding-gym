@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/insertionsort2/problem
+// sorting, easy
 
 #include <cmath>
 #include <cstdio>

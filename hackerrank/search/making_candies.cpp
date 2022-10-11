@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/making-candies/problem
+// search, hard
 
 #include <bits/stdc++.h>
 

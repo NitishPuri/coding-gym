@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/minimum-time-required/problem
+// medium, search
 
 #include <bits/stdc++.h>
 

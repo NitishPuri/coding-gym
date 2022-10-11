@@ -1,3 +1,6 @@
+// https://www.hackerrank.com/challenges/s10-least-square-regression-line/problem
+// math, easy
+
 #include <cmath>
 #include <cstdio>
 #include <vector>

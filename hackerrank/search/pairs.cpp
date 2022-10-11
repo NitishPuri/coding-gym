@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/pairs/problem
+// search, medium
 
 #include <bits/lib.h>
 #include <bits/stdc++.h>

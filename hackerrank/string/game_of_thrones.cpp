@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/game-of-thrones/problem
+// string, easy
 
 #include <bits/stdc++.h>
 

@@ -1,9 +1,5 @@
-//
-//  main.cpp
-//  Huffman
-//
-//  Created by Vatsal Chanana
 // https://www.hackerrank.com/challenges/tree-huffman-decoding/problem
+// tree, medium
 
 #include <bits/stdc++.h>
 using namespace std;

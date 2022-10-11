@@ -1,3 +1,6 @@
+// https://www.hackerrank.com/challenges/icecream-parlor/problem
+// search, easy
+
 #include <bits/stdc++.h>
 
 using namespace std;

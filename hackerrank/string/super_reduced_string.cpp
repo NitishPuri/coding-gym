@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/reduced-string/problem
+// string, easy
 
 #include <bits/stdc++.h>
 

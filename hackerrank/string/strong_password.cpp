@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/strong-password/problem
+// string, easy
 
 #include <bits/stdc++.h>
 

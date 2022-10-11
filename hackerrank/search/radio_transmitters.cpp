@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/hackerland-radio-transmitters
+// search, medium
 
 #include <cmath>
 #include <cstdio>

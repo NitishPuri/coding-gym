@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/swap-nodes-algo/problem
+// tree, medium
 
 #include <bits/stdc++.h>
 

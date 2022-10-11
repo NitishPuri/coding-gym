@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/s10-binomial-distribution-2
+// math, easy
 
 #include <bits/stdc++.h>
 

@@ -1,3 +1,7 @@
+// https://www.hackerrank.com/challenges/gridland-metro/problem
+// medium, search
+
+
 #include <bits/stdc++.h>
 
 using namespace std;

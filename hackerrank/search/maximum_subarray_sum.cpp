@@ -1,3 +1,6 @@
+// https://www.hackerrank.com/challenges/maximum-subarray-sum/problem
+// hard, search
+
 #include <bits/stdc++.h>
 
 using namespace std;

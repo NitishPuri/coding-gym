@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/palindrome-index/problem
+// string, easy
 
 #include <bits/stdc++.h>
 
