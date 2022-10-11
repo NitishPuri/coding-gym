@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/merge-two-binary-trees/
+// easy, tree, depth-first-search, breadth-first-search, binary-tree
 
 
 // Definition for a binary tree node.

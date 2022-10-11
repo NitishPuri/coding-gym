@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/longest-univalue-path/
+// medium, tree, depth-first-search, binary-tree
 
 #include <iostream>
 

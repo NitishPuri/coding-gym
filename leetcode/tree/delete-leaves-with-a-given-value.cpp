@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/delete-leaves-with-a-given-value/
+// medium, tree, depth-first-search, binary-tree
 
 
 // Definition for a binary tree node.

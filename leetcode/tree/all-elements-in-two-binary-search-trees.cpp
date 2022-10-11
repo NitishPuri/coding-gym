@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
+// medium, tree, depth-first-search, binary-search-tree, sorting, binary-tree
 
 #include <vector>
 #include <algorithm>

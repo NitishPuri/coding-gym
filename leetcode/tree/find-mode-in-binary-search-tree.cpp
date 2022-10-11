@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/find-mode-in-binary-search-tree/
+// easy, tree, depth-first-search, binary-search-tree, binary-tree
 
 #include <vector>
 #include <unordered_map>

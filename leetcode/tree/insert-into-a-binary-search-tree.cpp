@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/insert-into-a-binary-search-tree/
+// medium, tree, binary-search-tree, binary-tree
 
 
 // Definition for a binary tree node.

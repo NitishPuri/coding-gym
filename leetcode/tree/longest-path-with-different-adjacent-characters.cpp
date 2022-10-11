@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/longest-path-with-different-adjacent-characters/
+// hard, array, string, tree, depth-first-search, graph, topological-sort
 
 #include <vector>
 #include <queue>

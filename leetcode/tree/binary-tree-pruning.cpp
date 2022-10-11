@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/binary-tree-pruning/
+// medium, tree, depth-first-search, binary-tree
 
 
 // Definition for a binary tree node.

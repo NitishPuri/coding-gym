@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
+// medium, hash-table, tree, depth-first-search, breadth-first-search, binary-tree
 
 #include <utility>
 

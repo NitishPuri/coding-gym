@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/operations-on-tree/
+// medium, hash-table, depth-first-search, tree, design, breadth-first-search
 
 #include <vector>
 #include <map>

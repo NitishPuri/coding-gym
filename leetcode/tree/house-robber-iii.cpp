@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/house-robber-iii/
+// medium, dynamic-programming, tree, depth-first-search, binary-tree
 
 
 #include <vector>

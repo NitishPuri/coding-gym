@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
+// medium, tree, depth-first-search, binary-tree
 
 #include <vector>
 

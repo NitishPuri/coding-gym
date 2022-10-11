@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/subtree-of-another-tree/
-
+// easy, tree, depth-first-search, string-matching, binary-tree, hash-function
 
 // Definition for a binary tree node.
 struct TreeNode {

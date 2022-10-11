@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/symmetric-tree/
+// easy, tree, depth-first-search, breadth-first-search, binary-tree
 
 /**
  * Definition for a binary tree node.

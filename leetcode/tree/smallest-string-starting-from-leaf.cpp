@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/smallest-string-starting-from-leaf/
+// medium, string, tree, depth-first-search, binary-tree
 
 #include <string>
 

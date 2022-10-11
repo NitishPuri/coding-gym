@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
+// medium, hash-table, tree, depth-first-search, breadth-first-search, binary-tree
 
 
 #include <utility>

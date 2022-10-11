@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+// medium, tree, depth-first-search, breadth-first-search, binary-tree
 
 #include <iostream>
 

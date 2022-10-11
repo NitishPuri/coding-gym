@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/most-frequent-subtree-sum/
+// medium, hash-table, depth-first-search, tree, binary-tree
 
 #include <vector>
 #include <unordered_map>

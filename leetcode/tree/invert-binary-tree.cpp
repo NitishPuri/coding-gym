@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/invert-binary-tree/
+// easy, tree, depth-first-search, breadth-first-search, binary-tree
 
 #include <iostream>
 

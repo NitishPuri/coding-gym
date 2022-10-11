@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+// medium, linked-list, stack, tree, depth-first-search, binary-tree
 
 
 // Definition for a binary tree node.

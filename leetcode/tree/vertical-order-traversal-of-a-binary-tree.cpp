@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
+// hard, hash-table, tree, depth-first-search, breadth-first-search, binary-tree
 
 #include <vector>
 #include <map>

@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
+// medium, tree, depth-first-search, breadth-first-search, binary-tree
 
 #include <vector>
 #include <queue>

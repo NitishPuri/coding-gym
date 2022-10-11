@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/even-odd-tree/
+// medium, tree, breadth-first-search, binary-tree
 
 
 #include <queue>

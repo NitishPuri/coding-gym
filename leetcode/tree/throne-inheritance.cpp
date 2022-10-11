@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/throne-inheritance/
+// medium, hash-table, tree, depth-first-search, design
 
 #include <string>
 #include <vector>

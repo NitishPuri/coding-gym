@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
+// medium, tree, depth-first-search, binary-tree
 
 
 // Definition for a binary tree node.

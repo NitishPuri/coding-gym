@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/diameter-of-binary-tree/
+// easy, tree, depth-first-search, binary-tree
 
 #include <vector>
 
