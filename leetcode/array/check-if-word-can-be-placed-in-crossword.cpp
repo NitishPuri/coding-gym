@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/
-// matrix, enumeration, medium
+// matrix, enumeration, medium, array
 
 #include <vector>
 #include <string>
