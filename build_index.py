@@ -7,6 +7,8 @@ source_dirs = ["leetcode", "hackerrank"]
 def extract_meta_info(filepath):
     with open(filepath) as source_file:
         url = source_file.readline()[2:].strip()
+        if url[-1] == '/':
+            url = url[:-1]
         tags = source_file.readline()[2:].strip()
         tags = tags.split(', ')
         tags = ";".join(tags)

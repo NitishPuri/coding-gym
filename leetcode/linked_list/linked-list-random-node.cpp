@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/linked-list-random-node
-// k=linked-list, math, randomized
+// linked-list, math, randomized, medium
 
 #include <vector>
 

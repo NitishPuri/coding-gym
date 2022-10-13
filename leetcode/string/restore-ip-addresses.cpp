@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/restore-ip-addresses
-// string, backtracking
+// string, backtracking, medium
 
 #include <vector>
 #include <string>
@@ -15,6 +15,7 @@ public:
         
         for(int i = 0; i < 3; ++i) {
             if(i < n - 10) continue;
+            if(i >= n-3) break;
             if(s[0] == '0' && i > 0) break;
             
             int a = stoi(s.substr(0, i+1));
@@ -22,14 +23,16 @@ public:
             if(a > 255) break;
             
             for(int j = i+1; j < i + 4; ++j) {
-                if(j < n - 7) continue;;
+                if(j < n - 7) continue;
+                if(j >= n-2) break;
                 if(s[i+1] == '0' && j > i + 1) break;
                 
                 int b = stoi(s.substr(i + 1, j - i));
                 if(b > 255) break;
                 
                 for(int k = j + 1; k < j + 4; ++k) {
-                    if(k < n - 4) continue;;
+                    if(k < n - 4) continue;
+                    if(k >= n-1) break;
                     if(s[j+1] == '0' && k > j + 1) break;
                     
                     int c = stoi(s.substr(j + 1, k - j));
@@ -37,6 +40,7 @@ public:
                     
                     for(int l = k + 1; l < k + 4; ++l) {
                         if(l < n - 1) continue;
+                        if(l >= n) break;
                         if(s[k+1] == '0' && l > k + 1) break;
                         
                         int d = stoi(s.substr(k + 1, l - k));

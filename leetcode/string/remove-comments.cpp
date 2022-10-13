@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/remove-comments
-// string, array
+// string, array, medium
 
 #include <string>
 #include <vector>

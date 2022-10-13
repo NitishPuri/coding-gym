@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/minimum-depth-of-binary-tree
-// tree, breadth-first-search, binary-tree
+// tree, breadth-first-search, binary-tree, easy
 
 #include <queue>
 using namespace std;

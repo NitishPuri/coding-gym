@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/number-of-good-paths
-// array, tree, union-find, graph
+// array, tree, union-find, graph, medium
 
 #include <vector>
 
