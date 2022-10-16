@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/
-// array, math, simulation
+// array, math, simulation, medium
 
 // 0 1 2 3 4 5  
 // 0 3 1 4 2 5
@@ -13,12 +13,11 @@ public:
     int reinitializePermutation(int n) {
         int i = 1;
         int c = 0;
-        while(true) {
+        while(c == 0 || i != 1) {
             i = (i & 1) ? n/2 + (i-1)/2 : i/2;
-            if(i == 1) break;
             ++c;
         }
-        return c+1;
+        return c;
     }
 };
 

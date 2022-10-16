@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers
-// array, hash-table, matrix
+// array, hash-table, matrix, medium
 
 #include <vector>
 #include <unordered_set>

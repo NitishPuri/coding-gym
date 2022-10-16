@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/
-// string, greedy
+// string, greedy, easy
 
 #include <string>
 using namespace std;
