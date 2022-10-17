@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/unique-morse-code-words
-// aray, hash-table, string
+// array, hash-table, string, easy
 
 #include <vector>
 #include <string>
