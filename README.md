@@ -10,11 +10,15 @@ setup debug launch options :: https://code.visualstudio.com/docs/editor/debuggin
 ## Coding Problem Sites Used
 * https://leetcode.com/npuri1903/
 * https://www.hackerrank.com/npuri1903
+
+## Sites to be used 
 * https://www.hackerearth.com/@npuri1903
 * https://codeforces.com/profile/npuri1903
 * https://www.codechef.com/users/npuri1903
 * https://www.codewars.com/users/NitishPuri
 * https://www.codingame.com/home
+* https://atcoder.jp/home
+* https://www.spoj.com/
 
 
 
