@@ -1,95 +1,78 @@
-
 //##
 // Populate index.html
 //##
 
-function process_data_csv(data) {
-    console.log("Processing csv")
-    const all_lines = data.split(/\r\n|\n/);
-    const headers = all_lines[0].split(',');
-    let lines = [];
+function createTreeView_(data, container) {
+    console.log('Creating tree view', data);
+    container.empty();
+    let ul = $('<ul></ul>');
 
-    // Read all the lines
-    for (let i = 1; i < all_lines.length; i++) {
-        let line = all_lines[i].split(',');
-        // console.log(line)
-        if (line.length == headers.length) {
-            let obj = {};
-            for (let j = 0; j < headers.length; j++) {
-                obj[headers[j]] = line[j]
-            }
-            lines.push(obj)
+    for (const [key, item] of Object.entries(data)) {
+        console.log(key, item);
+        const isCategory = !item['name'];
+
+        let li = $('<li></li>');
+        let childrenContainer = $('<ul></ul>');
+        console.log('123', childrenContainer);
+
+        if (isCategory) {
+            let toggle = $(
+                '<button class="btn btn-outline-primary"></button>'
+            ).text('+');
+            li.append(toggle);
+            toggle.on('click', function () {
+                console.log(childrenContainer[0].classList);
+                childrenContainer.toggleClass('nested');
+                toggle.text(toggle.text() === '+' ? '-' : '+');
+            });
+
+            li.append($('<span></span>').text(`  ${key}`));
+            console.log('Finding children for', key);
+            childrenContainer.append(createTreeView_(item, childrenContainer));
+        } else {
+            let text = $('<span></span>').text(`${key} - ${item.tags}   -   `);
+            li.append(text);
+            let url = $('<a></a>').attr('href', item.url).text(item.url);
+            li.append(url);
         }
+
+        li.append(childrenContainer);
+        ul.append(li);
     }
-
-    let keys = ['Name', 'Problem Statement', 'Tags']
-    $('#contents-header').append(keys.map((k) => $(`<th>${k}</th>`)))
-
-    // Add entries to list
-    function createListItem(line) {
-        let li = $('<tr></tr>');
-        li.append($('<td></td>').append(`<a href=${line.path}>${line.name}</a>`))
-        li.append($('<td></td>').append(`<a href=${line.url}>${line.url}</a>`))
-        // li.append($('<td></td>').append(`<a href=${line.url}>${line.name}</a>`))        
-        li.append($('<td></td>').append(`<span>${line.tags}</span>`))
-        return li
-    }
-    $('#contents').append(lines.map(createListItem));
-
+    container.append(ul);
 }
 
 function createTreeView(data, container) {
-    console.log("Creating tree view", data)
-    container.empty();
-    data.forEach(item => {
-        let li = $('<li></li>').addClass('tree-item');
-        let toggle = $('<span></span>').addClass('toggle').text('▶');
-        let text = $('<span></span>').addClass('item-text').text(`${item.platform} - ${item.title} (${item.difficulty})`);
-        let childrenContainer = $('<ul></ul>').addClass('nested');
-
-        if (item.children && item.children.length > 0) {
-            li.append(toggle);
-            toggle.on('click', function () {
-                childrenContainer.toggle();
-                toggle.text(toggle.text() === '▶' ? '▼' : '▶');
-            });
-        }
-        li.append(text);
-        childrenContainer.append(createTreeView(item.children || [], childrenContainer));
-        li.append(childrenContainer);
-        container.append(li);
-    });
+    createTreeView_(data['index'], container);
 }
 
-
 $(document).ready(function () {
-    console.log("Setting up search")
+    console.log('Setting up search');
     // Setup search.
-    $("#search_input").on("keyup", function () {
-        const value = $(this).val().toLowerCase();
-        $("#contents tr").filter(function () {
-            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-        });
-    });
-    console.log("Search setup")
 
-    // Read CSV.
-    $.get("static/index.csv", (data) => {
-        console.log("Processing CSV");
-        process_data_csv(data);
-    })
-    // $.get({
-    //     url: "static/index.csv",
-    //     dataType: "text",
-    //     success: process_data_csv
-    // })
+    $('#search_input').on('keyup', function () {
+        const value = $(this).val().toLowerCase();
+
+        // show all the elements
+        $('#list-view li').show();
+
+        console.log('Searching, ', value);
+        if (value == '') return;
+
+        $('#list-view li')
+            .filter(function () {
+                const text = $(this).text().toLowerCase();
+                return text.indexOf(value) === -1;
+            })
+            .hide();
+    });
+
+    console.log('Search setup');
 
     // Read JSON
     // $.getJSON("static/index.json", process_data_json);
-    $.get("static/index.json", (data) => {
-        console.log("Processing JSON");
-        createTreeView(data, $('#contents'));
-    })
-    
-
+    $.get('static/index.json', (data) => {
+        console.log('Processing JSON');
+        createTreeView(data, $('#list-view'));
+    });
 });

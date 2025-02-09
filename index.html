@@ -12,6 +12,7 @@
   <title>Code Index</title>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
   <script src="index.js"></script>
 
 </head>
@@ -28,9 +29,9 @@
   <div class="container">
     <input id="search_input" class="form-control input-sm" type="text" placeholder="Search..">
     <br>
-    <ul id="list-view">
+    <div id="list-view">
       <!-- Expandable list will be populated here -->
-    </ul>
+    </div>
     <script>
       // Theme switching logic
       const themeToggle = document.getElementById('theme-toggle');
@@ -40,13 +41,13 @@
       });
   </script>
 
-    <table class="table">
+    <!-- <table class="table">
       <thead>
         <tr id='contents-header'></tr>
       </thead>
       <tbody id='contents'>
       </tbody>
-    </table>
+    </table> -->
     
   </div>
 

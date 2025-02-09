@@ -54,7 +54,7 @@ async function writeDataJsonRecursive() {
 
     // Start collecting data from the source directories
     sourceDirs.forEach(source => {
-        indexData[source] = collectData(source, path.parse(source).name)
+        indexData[source] = collectData(source, path.parse(source).name)[0]
     });
 
     // Create the JSON structure
