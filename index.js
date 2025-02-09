@@ -5,38 +5,45 @@
 function createTreeView_(data, container) {
     console.log('Creating tree view', data);
     container.empty();
-    let ul = $('<ul></ul>');
+    let ul = $('<ul class="list-group"></ul>');
 
     for (const [key, item] of Object.entries(data)) {
         console.log(key, item);
         const isCategory = !item['name'];
 
-        let li = $('<li></li>');
-        let childrenContainer = $('<ul></ul>');
-        console.log('123', childrenContainer);
-
+        let li = $('<li class="list-group-item"></li>');
+        
         if (isCategory) {
-            let toggle = $(
-                '<button class="btn btn-outline-primary"></button>'
-            ).text('+');
-            li.append(toggle);
-            toggle.on('click', function () {
-                console.log(childrenContainer[0].classList);
-                childrenContainer.toggleClass('nested');
+            let childrenContainer = $('<ul class="list-group"></ul>');
+            let d = $('<div></div>')
+            
+            let toggle = $('<span></span>').text('+');
+            d.append(toggle);
+            d.append($('<span></span>').text(`  ${key}`));
+
+            d.on('click', function () {
+                childrenContainer.toggleClass('collapsed');
+                li.toggleClass('active');
                 toggle.text(toggle.text() === '+' ? '-' : '+');
             });
+            li.append(d);
 
-            li.append($('<span></span>').text(`  ${key}`));
-            console.log('Finding children for', key);
             childrenContainer.append(createTreeView_(item, childrenContainer));
+            li.append(childrenContainer);
+            
+            li.addClass('tree-category');
+            li.addClass('toggle');
         } else {
-            let text = $('<span></span>').text(`${key} - ${item.tags}   -   `);
+            let name = $('<a></a>').text(`${key}`).attr('href', item.path);
+            li.append(name);
+            let text = $('<span></span>').text(` - ${item.tags}   -   `);
             li.append(text);
             let url = $('<a></a>').attr('href', item.url).text(item.url);
             li.append(url);
+
+            li.addClass('tree-item');
         }
 
-        li.append(childrenContainer);
         ul.append(li);
     }
     container.append(ul);
@@ -52,19 +59,13 @@ $(document).ready(function () {
 
     $('#search_input').on('keyup', function () {
         const value = $(this).val().toLowerCase();
-
         // show all the elements
         $('#list-view li').show();
-
-        console.log('Searching, ', value);
         if (value == '') return;
-
-        $('#list-view li')
-            .filter(function () {
-                const text = $(this).text().toLowerCase();
-                return text.indexOf(value) === -1;
-            })
-            .hide();
+        $('#list-view li').filter(function () {
+            const text = $(this).text().toLowerCase();
+            return text.indexOf(value) === -1;
+        }).hide();
     });
 
     console.log('Search setup');

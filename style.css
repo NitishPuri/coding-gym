@@ -1,6 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background */
+    color: #343a40; /* Dark text color */
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#search_input {
+    margin-bottom: 20px;
+}
+
+.tree-category {
+    padding: 10px;
+    background-color: #ffffff; /* White background for categories */
+    border-radius: 5px;
+    border-color: #ffffff;
+}
+
+.tree-item {
+    padding: 10px;
+    background-color: #ffffff; /* White background for categories */
+    border-color: #ffffff;
+}
+
+.toggle {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.btn-outline-light {
+    margin-right: 10px; /* Space between button and text */
+}
+
 /* Remove default bullets */
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 /* Style the caret/arrow */
@@ -23,8 +61,8 @@ ul {
 } */
 
 /* Hide the nested list */
-.nested {
-  display: none;
+.collapsed {
+    display: none;
 }
 
 /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */

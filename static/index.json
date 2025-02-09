@@ -1,0 +1,1958 @@
+{
+  "index": {
+    "leetcode": {
+      "array": {
+        "1-bit-and-2-bit-characters": {
+          "name": "1-bit-and-2-bit-characters",
+          "path": "leetcode\\array\\1-bit-and-2-bit-characters.cpp",
+          "url": "https://leetcode.com/problems/1-bit-and-2-bit-characters",
+          "tags": "easy;array"
+        },
+        "baseball-game": {
+          "name": "baseball-game",
+          "path": "leetcode\\array\\baseball-game.cpp",
+          "url": "https://leetcode.com/problems/baseball-game",
+          "tags": "stack;easy;simulation;array"
+        },
+        "build-array-from-permutation": {
+          "name": "build-array-from-permutation",
+          "path": "leetcode\\array\\build-array-from-permutation.cpp",
+          "url": "https://leetcode.com/problems/build-array-from-permutation",
+          "tags": "easy;array;simulation"
+        },
+        "check-if-every-row-and-column-contains-all-numbers": {
+          "name": "check-if-every-row-and-column-contains-all-numbers",
+          "path": "leetcode\\array\\check-if-every-row-and-column-contains-all-numbers.cpp",
+          "url": "https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers",
+          "tags": "array;hash-table;matrix;medium"
+        },
+        "check-if-word-can-be-placed-in-crossword": {
+          "name": "check-if-word-can-be-placed-in-crossword",
+          "path": "leetcode\\array\\check-if-word-can-be-placed-in-crossword.cpp",
+          "url": "https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword",
+          "tags": "matrix;enumeration;medium;array"
+        },
+        "create-target-array-in-the-given-order": {
+          "name": "create-target-array-in-the-given-order",
+          "path": "leetcode\\array\\create-target-array-in-the-given-order.cpp",
+          "url": "https://leetcode.com/problems/create-target-array-in-the-given-order",
+          "tags": "simulation;easy;array"
+        },
+        "decompress-run-length-encoded-list": {
+          "name": "decompress-run-length-encoded-list",
+          "path": "leetcode\\array\\decompress-run-length-encoded-list.cpp",
+          "url": "https://leetcode.com/problems/decompress-run-length-encoded-list",
+          "tags": "easy;array"
+        },
+        "defuse-the-bomb": {
+          "name": "defuse-the-bomb",
+          "path": "leetcode\\array\\defuse-the-bomb.cpp",
+          "url": "https://leetcode.com/problems/defuse-the-bomb",
+          "tags": "easy;array"
+        },
+        "describe-the-painting": {
+          "name": "describe-the-painting",
+          "path": "leetcode\\array\\describe-the-painting.cpp",
+          "url": "https://leetcode.com/problems/describe-the-painting",
+          "tags": "medium;prefix-sum;array"
+        },
+        "divide-array-into-equal-pairs": {
+          "name": "divide-array-into-equal-pairs",
+          "path": "leetcode\\array\\divide-array-into-equal-pairs.cpp",
+          "url": "https://leetcode.com/problems/divide-array-into-equal-pairs",
+          "tags": "array;hash-table;bit-manipulation;counting"
+        },
+        "exam-room": {
+          "name": "exam-room",
+          "path": "leetcode\\array\\exam-room.cpp",
+          "url": "https://leetcode.com/problems/exam-room",
+          "tags": "design;ordered-set;medium;array"
+        },
+        "fair-candy-swap": {
+          "name": "fair-candy-swap",
+          "path": "leetcode\\array\\fair-candy-swap.cpp",
+          "url": "https://leetcode.com/problems/fair-candy-swap",
+          "tags": "hash-table;binary-search;sorting;easy;array"
+        },
+        "find-kth-largest-xor-coordinate-value": {
+          "name": "find-kth-largest-xor-coordinate-value",
+          "path": "leetcode\\array\\find-kth-largest-xor-coordinate-value.cpp",
+          "url": "https://leetcode.com/problems/find-kth-largest-xor-coordinate-value",
+          "tags": "medium;array;divide-and-conquer;bit-manipulation;priority-queue;matrix;prefix-sum;quickselect"
+        },
+        "find-target-indices-after-sorting-array": {
+          "name": "find-target-indices-after-sorting-array",
+          "path": "leetcode\\array\\find-target-indices-after-sorting-array.cpp",
+          "url": "https://leetcode.com/problems/find-target-indices-after-sorting-array",
+          "tags": "easy;binary-search;sorting;array"
+        },
+        "game-of-life": {
+          "name": "game-of-life",
+          "path": "leetcode\\array\\game-of-life.cpp",
+          "url": "https://leetcode.com/problems/game-of-life",
+          "tags": "medium;matrix;simulation;array"
+        },
+        "grid-game": {
+          "name": "grid-game",
+          "path": "leetcode\\array\\grid-game.cpp",
+          "url": "https://leetcode.com/problems/grid-game",
+          "tags": "medium;matrix;prefix-sum;array"
+        },
+        "image-smoother": {
+          "name": "image-smoother",
+          "path": "leetcode\\array\\image-smoother.cpp",
+          "url": "https://leetcode.com/problems/image-smoother",
+          "tags": "easy;matrix;array"
+        },
+        "jump-game-v": {
+          "name": "jump-game-v",
+          "path": "leetcode\\array\\jump-game-v.cpp",
+          "url": "https://leetcode.com/problems/jump-game-v",
+          "tags": "hard;dynamic-programming;sorting;array"
+        },
+        "k-closest-points-to-origin": {
+          "name": "k-closest-points-to-origin",
+          "path": "leetcode\\array\\k-closest-points-to-origin.cpp",
+          "url": "https://leetcode.com/problems/k-closest-points-to-origin",
+          "tags": "array;math;divide-and-conquer;geometry;sorting;priority-queue;quickselect;medium"
+        },
+        "kids-with-the-greatest-number-of-candies": {
+          "name": "kids-with-the-greatest-number-of-candies",
+          "path": "leetcode\\array\\kids-with-the-greatest-number-of-candies.cpp",
+          "url": "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies",
+          "tags": "array"
+        },
+        "longest-subsequence-with-limited-sum": {
+          "name": "longest-subsequence-with-limited-sum",
+          "path": "leetcode\\array\\longest-subsequence-with-limited-sum.cpp",
+          "url": "https://leetcode.com/problems/longest-subsequence-with-limited-sum",
+          "tags": "array;easy;binary-search;greedy;sorting;prefix-sum"
+        },
+        "maximum-element-after-decreasing-and-rearranging": {
+          "name": "maximum-element-after-decreasing-and-rearranging",
+          "path": "leetcode\\array\\maximum-element-after-decreasing-and-rearranging.cpp",
+          "url": "https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging",
+          "tags": "medium;greedy;sorting;array"
+        },
+        "minimum-adjacent-swaps-for-k-consecutive-ones": {
+          "name": "minimum-adjacent-swaps-for-k-consecutive-ones",
+          "path": "leetcode\\array\\minimum-adjacent-swaps-for-k-consecutive-ones.cpp",
+          "url": "https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones",
+          "tags": "hard;greedy;sliding-window;prefix-sum;array"
+        },
+        "minimum-operations-to-convert-number": {
+          "name": "minimum-operations-to-convert-number",
+          "path": "leetcode\\array\\minimum-operations-to-convert-number.cpp",
+          "url": "https://leetcode.com/problems/minimum-operations-to-convert-number",
+          "tags": "array;breadth-first-search;medium"
+        },
+        "minimum-sum-of-squared-difference": {
+          "name": "minimum-sum-of-squared-difference",
+          "path": "leetcode\\array\\minimum-sum-of-squared-difference.cpp",
+          "url": "https://leetcode.com/problems/minimum-sum-of-squared-difference",
+          "tags": "medium;math;sorting;priority-queue;array"
+        },
+        "number-of-students-unable-to-eat-lunch": {
+          "name": "number-of-students-unable-to-eat-lunch",
+          "path": "leetcode\\array\\number-of-students-unable-to-eat-lunch.cpp",
+          "url": "https://leetcode.com/problems/number-of-students-unable-to-eat-lunch",
+          "tags": "easy;stack;queue;simulation;array"
+        },
+        "pairs-of-songs-with-total-durations-divisible-by-60": {
+          "name": "pairs-of-songs-with-total-durations-divisible-by-60",
+          "path": "leetcode\\array\\pairs-of-songs-with-total-durations-divisible-by-60.cpp",
+          "url": "https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60",
+          "tags": "medium;array;hash-table;counting"
+        },
+        "removing-minimum-number-of-magic-beans": {
+          "name": "removing-minimum-number-of-magic-beans",
+          "path": "leetcode\\array\\removing-minimum-number-of-magic-beans.cpp",
+          "url": "https://leetcode.com/problems/removing-minimum-number-of-magic-beans",
+          "tags": "medium;sorting;prefix-sum;array"
+        },
+        "rotting-oranges": {
+          "name": "rotting-oranges",
+          "path": "leetcode\\array\\rotting-oranges.cpp",
+          "url": "https://leetcode.com/problems/rotting-oranges",
+          "tags": "medium;breadth-first-search;matrix;array"
+        },
+        "running-sum-of-1d-array": {
+          "name": "running-sum-of-1d-array",
+          "path": "leetcode\\array\\running-sum-of-1d-array.cpp",
+          "url": "https://leetcode.com/problems/running-sum-of-1d-array",
+          "tags": "array;easy;prefix-sum"
+        },
+        "shuffle-an-array": {
+          "name": "shuffle-an-array",
+          "path": "leetcode\\array\\shuffle-an-array.cpp",
+          "url": "https://leetcode.com/problems/shuffle-an-array",
+          "tags": "medium;math;randomized;array"
+        },
+        "snapshot-array": {
+          "name": "snapshot-array",
+          "path": "leetcode\\array\\snapshot-array.cpp",
+          "url": "https://leetcode.com/problems/snapshot-array",
+          "tags": "medium;array;hash-table;binary-search;design"
+        }
+      },
+      "bit-manipulation": {
+        "counting-bits": {
+          "name": "counting-bits",
+          "path": "leetcode\\bit-manipulation\\counting-bits.cpp",
+          "url": "https://leetcode.com/problems/counting-bits",
+          "tags": "easy;dynamic-programming;bit-manipulation"
+        },
+        "hamming-distance": {
+          "name": "hamming-distance",
+          "path": "leetcode\\bit-manipulation\\hamming-distance.cpp",
+          "url": "https://leetcode.com/problems/hamming-distance",
+          "tags": "easy;bit-manipulation"
+        },
+        "sum-of-two-integers": {
+          "name": "sum-of-two-integers",
+          "path": "leetcode\\bit-manipulation\\sum-of-two-integers.cpp",
+          "url": "https://leetcode.com/problems/sum-of-two-integers",
+          "tags": "medium;math;bit-manipulation"
+        }
+      },
+      "concurrency": {
+        "building-h2o": {
+          "name": "building-h2o",
+          "path": "leetcode\\concurrency\\building-h2o.cpp",
+          "url": "https://leetcode.com/problems/building-h2o",
+          "tags": "medium;concurrency"
+        }
+      },
+      "dynamic-programming": {
+        "burst-balloons": {
+          "name": "burst-balloons",
+          "path": "leetcode\\dynamic-programming\\burst-balloons.cpp",
+          "url": "https://leetcode.com/problems/burst-balloons",
+          "tags": "hard;array;dynamic-programming"
+        },
+        "check-if-an-original-string-exists-given-two-encoded-strings": {
+          "name": "check-if-an-original-string-exists-given-two-encoded-strings",
+          "path": "leetcode\\dynamic-programming\\check-if-an-original-string-exists-given-two-encoded-strings.cpp",
+          "url": "https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings",
+          "tags": "dynamic-programming;hard;string"
+        },
+        "combination-sum-iii": {
+          "name": "combination-sum-iii",
+          "path": "leetcode\\dynamic-programming\\combination-sum-iii.cpp",
+          "url": "https://leetcode.com/problems/combination-sum-iii",
+          "tags": "dynamic-programming;medium;array;backtracking"
+        },
+        "count-different-palindromic-subsequences": {
+          "name": "count-different-palindromic-subsequences",
+          "path": "leetcode\\dynamic-programming\\count-different-palindromic-subsequences.cpp",
+          "url": "https://leetcode.com/problems/count-different-palindromic-subsequences",
+          "tags": "string;dynamic-programming;hard"
+        },
+        "house-robber-ii": {
+          "name": "house-robber-ii",
+          "path": "leetcode\\dynamic-programming\\house-robber-ii.cpp",
+          "url": "https://leetcode.com/problems/house-robber-ii",
+          "tags": "medium;dynamic-programming;array"
+        },
+        "jump-game-ii": {
+          "name": "jump-game-ii",
+          "path": "leetcode\\dynamic-programming\\jump-game-ii.cpp",
+          "url": "https://leetcode.com/problems/jump-game-ii",
+          "tags": "dynamic-programming;medium;array;greedy"
+        },
+        "largest-sum-of-averages": {
+          "name": "largest-sum-of-averages",
+          "path": "leetcode\\dynamic-programming\\largest-sum-of-averages.cpp",
+          "url": "https://leetcode.com/problems/largest-sum-of-averages",
+          "tags": "medium;array;dynamic-programming"
+        },
+        "longest-subarray-of-1s-after-deleting-one-element": {
+          "name": "longest-subarray-of-1s-after-deleting-one-element",
+          "path": "leetcode\\dynamic-programming\\longest-subarray-of-1s-after-deleting-one-element.cpp",
+          "url": "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element",
+          "tags": "medium;dynamic-programming;array;sliding-window"
+        },
+        "maximum-non-negative-product-in-a-matrix": {
+          "name": "maximum-non-negative-product-in-a-matrix",
+          "path": "leetcode\\dynamic-programming\\maximum-non-negative-product-in-a-matrix.cpp",
+          "url": "https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix",
+          "tags": "medium;array;dynamic-programming;matrix"
+        },
+        "minimum-ascii-delete-sum-for-two-strings": {
+          "name": "minimum-ascii-delete-sum-for-two-strings",
+          "path": "leetcode\\dynamic-programming\\minimum-ascii-delete-sum-for-two-strings.cpp",
+          "url": "https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings",
+          "tags": "medium;string;dynamic-programming"
+        },
+        "minimum-cost-tree-from-leaf-values": {
+          "name": "minimum-cost-tree-from-leaf-values",
+          "path": "leetcode\\dynamic-programming\\minimum-cost-tree-from-leaf-values.cpp",
+          "url": "https://leetcode.com/problems/minimum-cost-tree-from-leaf-values",
+          "tags": "medium;dynamic-programming;stack;greedy;monotonic-stack"
+        },
+        "minimum-falling-path-sum": {
+          "name": "minimum-falling-path-sum",
+          "path": "leetcode\\dynamic-programming\\minimum-falling-path-sum.cpp",
+          "url": "https://leetcode.com/problems/minimum-falling-path-sum",
+          "tags": "medium;array;dynamic-programming;matrix"
+        },
+        "number-of-digit-one": {
+          "name": "number-of-digit-one",
+          "path": "leetcode\\dynamic-programming\\number-of-digit-one.cpp",
+          "url": "https://leetcode.com/problems/number-of-digit-one",
+          "tags": "hard;math;dynamic-programming;recursion"
+        },
+        "number-of-people-aware-of-a-secret": {
+          "name": "number-of-people-aware-of-a-secret",
+          "path": "leetcode\\dynamic-programming\\number-of-people-aware-of-a-secret.cpp",
+          "url": "https://leetcode.com/problems/number-of-people-aware-of-a-secret",
+          "tags": "medium;dynamic-programming;queue;simulation"
+        },
+        "number-of-ways-to-paint-n-3-grid": {
+          "name": "number-of-ways-to-paint-n-3-grid",
+          "path": "leetcode\\dynamic-programming\\number-of-ways-to-paint-n-3-grid.cpp",
+          "url": "https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid",
+          "tags": "dynamic-programming;hard"
+        },
+        "number-of-ways-to-separate-numbers": {
+          "name": "number-of-ways-to-separate-numbers",
+          "path": "leetcode\\dynamic-programming\\number-of-ways-to-separate-numbers.cpp",
+          "url": "https://leetcode.com/problems/number-of-ways-to-separate-numbers",
+          "tags": "string;dynamic-programming;suffix-array;hard"
+        },
+        "optimal-division": {
+          "name": "optimal-division",
+          "path": "leetcode\\dynamic-programming\\optimal-division.cpp",
+          "url": "https://leetcode.com/problems/optimal-division",
+          "tags": "medium;array;math;dynamic-programming"
+        },
+        "pyramid-transition-matrix": {
+          "name": "pyramid-transition-matrix",
+          "path": "leetcode\\dynamic-programming\\pyramid-transition-matrix.cpp",
+          "url": "https://leetcode.com/problems/pyramid-transition-matrix",
+          "tags": "medium;bit-manipulation;dynamic-programming;depth-first-search;breadth-first-search"
+        },
+        "race-car": {
+          "name": "race-car",
+          "path": "leetcode\\dynamic-programming\\race-car.cpp",
+          "url": "https://leetcode.com/problems/race-car",
+          "tags": "dynamic-programming;hard;incomplete"
+        },
+        "shopping-offers": {
+          "name": "shopping-offers",
+          "path": "leetcode\\dynamic-programming\\shopping-offers.cpp",
+          "url": "https://leetcode.com/problems/shopping-offers",
+          "tags": "medium;array;dynamic-programming;backtracking;bit-manipulation;memoization;bitmask"
+        },
+        "stone-game-iv": {
+          "name": "stone-game-iv",
+          "path": "leetcode\\dynamic-programming\\stone-game-iv.cpp",
+          "url": "https://leetcode.com/problems/stone-game-iv",
+          "tags": "hard;dynamic-programming;math"
+        },
+        "unique-paths-ii": {
+          "name": "unique-paths-ii",
+          "path": "leetcode\\dynamic-programming\\unique-paths-ii.cpp",
+          "url": "https://leetcode.com/problems/unique-paths-ii",
+          "tags": "medium;array;dynamic-programming;matrix"
+        },
+        "unique-paths": {
+          "name": "unique-paths",
+          "path": "leetcode\\dynamic-programming\\unique-paths.cpp",
+          "url": "https://leetcode.com/problems/unique-paths",
+          "tags": "medium;math;dynamic-programming;combinatorics"
+        }
+      },
+      "geometry": {
+        "minimum-time-visiting-all-points": {
+          "name": "minimum-time-visiting-all-points",
+          "path": "leetcode\\geometry\\minimum-time-visiting-all-points.cpp",
+          "url": "https://leetcode.com/problems/minimum-time-visiting-all-points",
+          "tags": "easy;array;math;geometry"
+        }
+      },
+      "graph": {
+        "127_word_ladder": {
+          "name": "127_word_ladder",
+          "path": "leetcode\\graph\\127_word_ladder.cpp",
+          "url": "https://leetcode.com/problems/word-ladder",
+          "tags": "hard;hash table;string;breadth-first-search"
+        },
+        "239_keys_and_rooms": {
+          "name": "239_keys_and_rooms",
+          "path": "leetcode\\graph\\239_keys_and_rooms.cpp",
+          "url": "https://leetcode.com/problems/keys-and-rooms",
+          "tags": "medium;depth-first-search;breadth-first-search;graph"
+        },
+        "as-far-from-land-as-possible": {
+          "name": "as-far-from-land-as-possible",
+          "path": "leetcode\\graph\\as-far-from-land-as-possible.cpp",
+          "url": "https://leetcode.com/problems/as-far-from-land-as-possible",
+          "tags": "array;dynamic-programming;breadth-first-search;matrix"
+        },
+        "find-largest-value-in-each-tree-row": {
+          "name": "find-largest-value-in-each-tree-row",
+          "path": "leetcode\\graph\\find-largest-value-in-each-tree-row.cpp",
+          "url": "https://leetcode.com/problems/find-largest-value-in-each-tree-row",
+          "tags": "medium;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "minimize-malware-spread": {
+          "name": "minimize-malware-spread",
+          "path": "leetcode\\graph\\minimize-malware-spread.cpp",
+          "url": "https://leetcode.com/problems/minimize-malware-spread",
+          "tags": "hard;depth-first-search;breadth-first-search;union-find;matrix;graph"
+        },
+        "minimum-moves-to-reach-target-with-rotations": {
+          "name": "minimum-moves-to-reach-target-with-rotations",
+          "path": "leetcode\\graph\\minimum-moves-to-reach-target-with-rotations.cpp",
+          "url": "https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations",
+          "tags": "breadth-first-search;graph;matrix;array;hard"
+        },
+        "number-of-good-paths": {
+          "name": "number-of-good-paths",
+          "path": "leetcode\\graph\\number-of-good-paths.cpp",
+          "url": "https://leetcode.com/problems/number-of-good-paths",
+          "tags": "array;tree;union-find;graph;medium"
+        },
+        "path-with-maximum-probability": {
+          "name": "path-with-maximum-probability",
+          "path": "leetcode\\graph\\path-with-maximum-probability.cpp",
+          "url": "https://leetcode.com/problems/path-with-maximum-probability",
+          "tags": "medium;graph;priority-queue;shortest-path;graph"
+        },
+        "verify-preorder-serialization-of-a-binary-tree": {
+          "name": "verify-preorder-serialization-of-a-binary-tree",
+          "path": "leetcode\\graph\\verify-preorder-serialization-of-a-binary-tree.cpp",
+          "url": "https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree",
+          "tags": "string;stack;tree;binary-tree"
+        }
+      },
+      "greedy": {
+        "array-of-doubled-pairs": {
+          "name": "array-of-doubled-pairs",
+          "path": "leetcode\\greedy\\array-of-doubled-pairs.cpp",
+          "url": "https://leetcode.com/problems/array-of-doubled-pairs",
+          "tags": "medium;array;hash-table;greedy;sorting"
+        },
+        "destroying-asteroids": {
+          "name": "destroying-asteroids",
+          "path": "leetcode\\greedy\\destroying-asteroids.cpp",
+          "url": "https://leetcode.com/problems/destroying-asteroids",
+          "tags": "array;greedy;sorting"
+        },
+        "least-number-of-unique-integers-after-k-removals": {
+          "name": "least-number-of-unique-integers-after-k-removals",
+          "path": "leetcode\\greedy\\least-number-of-unique-integers-after-k-removals.cpp",
+          "url": "https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals",
+          "tags": "medium;array;hash-table;greedy;sorting;counting"
+        },
+        "maximum-ice-cream-bars": {
+          "name": "maximum-ice-cream-bars",
+          "path": "leetcode\\greedy\\maximum-ice-cream-bars.cpp",
+          "url": "https://leetcode.com/problems/maximum-ice-cream-bars",
+          "tags": "medium;greedy;sorting"
+        },
+        "minimum-number-of-buckets-required-to-collect-rainwater-from-houses": {
+          "name": "minimum-number-of-buckets-required-to-collect-rainwater-from-houses",
+          "path": "leetcode\\greedy\\minimum-number-of-buckets-required-to-collect-rainwater-from-houses.cpp",
+          "url": "https://leetcode.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses",
+          "tags": "greedy;medium;string;dynamic-programming"
+        },
+        "minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits": {
+          "name": "minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits",
+          "path": "leetcode\\greedy\\minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.cpp",
+          "url": "https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits",
+          "tags": "hard;string;greedy;binary-indexed-tree;segment-tree"
+        }
+      },
+      "linked_list": {
+        "flatten-a-multilevel-doubly-linked-list": {
+          "name": "flatten-a-multilevel-doubly-linked-list",
+          "path": "leetcode\\linked_list\\flatten-a-multilevel-doubly-linked-list.cpp",
+          "url": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list",
+          "tags": "medium;linked-list;depth-first-search;doubly-linked-list"
+        },
+        "linked-list-random-node": {
+          "name": "linked-list-random-node",
+          "path": "leetcode\\linked_list\\linked-list-random-node.cpp",
+          "url": "https://leetcode.com/problems/linked-list-random-node",
+          "tags": "linked-list;math;randomized;medium"
+        },
+        "remove-duplicates-from-sorted-list-ii": {
+          "name": "remove-duplicates-from-sorted-list-ii",
+          "path": "leetcode\\linked_list\\remove-duplicates-from-sorted-list-ii.cpp",
+          "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii",
+          "tags": "linked-list;two-pointers"
+        }
+      },
+      "math": {
+        "2-keys-keyboard": {
+          "name": "2-keys-keyboard",
+          "path": "leetcode\\math\\2-keys-keyboard.cpp",
+          "url": "https://leetcode.com/problems/2-keys-keyboard",
+          "tags": "math;dynamic-programming"
+        },
+        "closest-divisors": {
+          "name": "closest-divisors",
+          "path": "leetcode\\math\\closest-divisors.cpp",
+          "url": "https://leetcode.com/problems/closest-divisors",
+          "tags": "medium;math"
+        },
+        "find-three-consecutive-integers-that-sum-to-a-given-number": {
+          "name": "find-three-consecutive-integers-that-sum-to-a-given-number",
+          "path": "leetcode\\math\\find-three-consecutive-integers-that-sum-to-a-given-number.cpp",
+          "url": "https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number",
+          "tags": "medium;math;simulation"
+        },
+        "four-divisors": {
+          "name": "four-divisors",
+          "path": "leetcode\\math\\four-divisors.cpp",
+          "url": "https://leetcode.com/problems/four-divisors",
+          "tags": "medium;array;math"
+        },
+        "minimum-deletions-to-make-array-divisible": {
+          "name": "minimum-deletions-to-make-array-divisible",
+          "path": "leetcode\\math\\minimum-deletions-to-make-array-divisible.cpp",
+          "url": "https://leetcode.com/problems/minimum-deletions-to-make-array-divisible",
+          "tags": "hard;array;math;sorting;priority-queue;number-theory"
+        },
+        "minimum-number-of-operations-to-reinitialize-a-permutation": {
+          "name": "minimum-number-of-operations-to-reinitialize-a-permutation",
+          "path": "leetcode\\math\\minimum-number-of-operations-to-reinitialize-a-permutation.cpp",
+          "url": "https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation",
+          "tags": "array;math;simulation;medium"
+        },
+        "powx-n": {
+          "name": "powx-n",
+          "path": "leetcode\\math\\powx-n.cpp",
+          "url": "https://leetcode.com/problems/powx-n",
+          "tags": "medium;math;recursion"
+        },
+        "self-dividing-numbers": {
+          "name": "self-dividing-numbers",
+          "path": "leetcode\\math\\self-dividing-numbers.cpp",
+          "url": "https://leetcode.com/problems/self-dividing-numbers",
+          "tags": "easy;math"
+        },
+        "sqrtx": {
+          "name": "sqrtx",
+          "path": "leetcode\\math\\sqrtx.cpp",
+          "url": "https://leetcode.com/problems/sqrtx",
+          "tags": "easy;math;binary-search"
+        },
+        "sum-of-digits-in-base-k": {
+          "name": "sum-of-digits-in-base-k",
+          "path": "leetcode\\math\\sum-of-digits-in-base-k.cpp",
+          "url": "https://leetcode.com/problems/sum-of-digits-in-base-k",
+          "tags": "easy;math"
+        },
+        "super-pow": {
+          "name": "super-pow",
+          "path": "leetcode\\math\\super-pow.cpp",
+          "url": "https://leetcode.com/problems/super-pow",
+          "tags": "medium;math;divide-and-conquer"
+        },
+        "the-kth-factor-of-n": {
+          "name": "the-kth-factor-of-n",
+          "path": "leetcode\\math\\the-kth-factor-of-n.cpp",
+          "url": "https://leetcode.com/problems/the-kth-factor-of-n",
+          "tags": "medium;math"
+        }
+      },
+      "search": {
+        "capacity-to-ship-packages-within-d-days": {
+          "name": "capacity-to-ship-packages-within-d-days",
+          "path": "leetcode\\search\\capacity-to-ship-packages-within-d-days.cpp",
+          "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days",
+          "tags": "medium;array;binary-search"
+        },
+        "guess-number-higher-or-lower": {
+          "name": "guess-number-higher-or-lower",
+          "path": "leetcode\\search\\guess-number-higher-or-lower.cpp",
+          "url": "https://leetcode.com/problems/guess-number-higher-or-lower",
+          "tags": "easy;binary-search;interactive"
+        },
+        "tuple-with-same-product": {
+          "name": "tuple-with-same-product",
+          "path": "leetcode\\search\\tuple-with-same-product.cpp",
+          "url": "https://leetcode.com/problems/tuple-with-same-product",
+          "tags": "medium;array;hash-table"
+        }
+      },
+      "set": {
+        "200_hashmap": {
+          "name": "200_hashmap",
+          "path": "leetcode\\set\\200_hashmap.cpp",
+          "url": "https://leetcode.com/problems/design-hashmap",
+          "tags": "easy;array;hash-table;linked-list;design;hash-function"
+        },
+        "200_hashset": {
+          "name": "200_hashset",
+          "path": "leetcode\\set\\200_hashset.cpp",
+          "url": "https://leetcode.com/problems/design-hashset",
+          "tags": "easy;array;hash-table;linked-list;design;hash-function"
+        },
+        "avoid-flood-in-the-city": {
+          "name": "avoid-flood-in-the-city",
+          "path": "leetcode\\set\\avoid-flood-in-the-city.cpp",
+          "url": "https://leetcode.com/problems/avoid-flood-in-the-city",
+          "tags": "medium;array;hash-table;binary-search;greedy;priority-queue"
+        },
+        "most-frequent-number-following-key-in-an-array": {
+          "name": "most-frequent-number-following-key-in-an-array",
+          "path": "leetcode\\set\\most-frequent-number-following-key-in-an-array.cpp",
+          "url": "https://leetcode.com/problems/most-frequent-number-following-key-in-an-array",
+          "tags": "easy;array;hash-table;counting"
+        },
+        "my-calendar-iii": {
+          "name": "my-calendar-iii",
+          "path": "leetcode\\set\\my-calendar-iii.cpp",
+          "url": "https://leetcode.com/problems/my-calendar-iii",
+          "tags": "hard;binary-search;design;segment-tree;ordered-set"
+        },
+        "tweet-counts-per-frequency": {
+          "name": "tweet-counts-per-frequency",
+          "path": "leetcode\\set\\tweet-counts-per-frequency.cpp",
+          "url": "https://leetcode.com/problems/tweet-counts-per-frequency",
+          "tags": "medium;hash-table;binary-search;design;sorting;ordered-set"
+        }
+      },
+      "string": {
+        "apply-discount-to-prices": {
+          "name": "apply-discount-to-prices",
+          "path": "leetcode\\string\\apply-discount-to-prices.cpp",
+          "url": "https://leetcode.com/problems/apply-discount-to-prices",
+          "tags": "medium;string"
+        },
+        "basic-calculator-ii": {
+          "name": "basic-calculator-ii",
+          "path": "leetcode\\string\\basic-calculator-ii.cpp",
+          "url": "https://leetcode.com/problems/basic-calculator-ii",
+          "tags": "math;string;stack;medium"
+        },
+        "bulls-and-cows": {
+          "name": "bulls-and-cows",
+          "path": "leetcode\\string\\bulls-and-cows.cpp",
+          "url": "https://leetcode.com/problems/bulls-and-cows",
+          "tags": "medium;hash-table;string;counting"
+        },
+        "check-if-one-string-swap-can-make-strings-equal": {
+          "name": "check-if-one-string-swap-can-make-strings-equal",
+          "path": "leetcode\\string\\check-if-one-string-swap-can-make-strings-equal.cpp",
+          "url": "https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal",
+          "tags": "string;counting;easy;hash-table"
+        },
+        "check-if-two-string-arrays-are-equivalent": {
+          "name": "check-if-two-string-arrays-are-equivalent",
+          "path": "leetcode\\string\\check-if-two-string-arrays-are-equivalent.cpp",
+          "url": "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent",
+          "tags": "easy;array;string"
+        },
+        "count-asterisks": {
+          "name": "count-asterisks",
+          "path": "leetcode\\string\\count-asterisks.cpp",
+          "url": "https://leetcode.com/problems/count-asterisks",
+          "tags": "easy;string"
+        },
+        "determine-color-of-a-chessboard-square": {
+          "name": "determine-color-of-a-chessboard-square",
+          "path": "leetcode\\string\\determine-color-of-a-chessboard-square.cpp",
+          "url": "https://leetcode.com/problems/determine-color-of-a-chessboard-square",
+          "tags": "math;string;easy"
+        },
+        "encrypt-and-decrypt-strings": {
+          "name": "encrypt-and-decrypt-strings",
+          "path": "leetcode\\string\\encrypt-and-decrypt-strings.cpp",
+          "url": "https://leetcode.com/problems/encrypt-and-decrypt-strings",
+          "tags": "array;hash-table;string;design;trie;hard"
+        },
+        "find-duplicate-file-in-system": {
+          "name": "find-duplicate-file-in-system",
+          "path": "leetcode\\string\\find-duplicate-file-in-system.cpp",
+          "url": "https://leetcode.com/problems/find-duplicate-file-in-system",
+          "tags": "array;hash-table;string"
+        },
+        "find-the-kth-largest-integer-in-the-array": {
+          "name": "find-the-kth-largest-integer-in-the-array",
+          "path": "leetcode\\string\\find-the-kth-largest-integer-in-the-array.cpp",
+          "url": "https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array",
+          "tags": "array;string;divide-and-conquer;sorting;priority-queue;quickselect;hard"
+        },
+        "goat-latin": {
+          "name": "goat-latin",
+          "path": "leetcode\\string\\goat-latin.cpp",
+          "url": "https://leetcode.com/problems/goat-latin",
+          "tags": "easy;string"
+        },
+        "html-entity-parser": {
+          "name": "html-entity-parser",
+          "path": "leetcode\\string\\html-entity-parser.cpp",
+          "url": "https://leetcode.com/problems/html-entity-parser",
+          "tags": "medium;hash-table;string"
+        },
+        "largest-substring-between-two-equal-characters": {
+          "name": "largest-substring-between-two-equal-characters",
+          "path": "leetcode\\string\\largest-substring-between-two-equal-characters.cpp",
+          "url": "https://leetcode.com/problems/largest-substring-between-two-equal-characters",
+          "tags": "easy;hash-table;string"
+        },
+        "longest-ideal-subsequence": {
+          "name": "longest-ideal-subsequence",
+          "path": "leetcode\\string\\longest-ideal-subsequence.cpp",
+          "url": "https://leetcode.com/problems/longest-ideal-subsequence",
+          "tags": "medium;hash-table;string;dynamic-programming"
+        },
+        "longest-palindrome": {
+          "name": "longest-palindrome",
+          "path": "leetcode\\string\\longest-palindrome.cpp",
+          "url": "https://leetcode.com/problems/longest-palindrome",
+          "tags": "hash-table;string;greedy"
+        },
+        "longest-uncommon-subsequence-i": {
+          "name": "longest-uncommon-subsequence-i",
+          "path": "leetcode\\string\\longest-uncommon-subsequence-i.cpp",
+          "url": "https://leetcode.com/problems/longest-uncommon-subsequence-i",
+          "tags": "easy;string"
+        },
+        "maximum-number-of-words-found-in-sentences": {
+          "name": "maximum-number-of-words-found-in-sentences",
+          "path": "leetcode\\string\\maximum-number-of-words-found-in-sentences.cpp",
+          "url": "https://leetcode.com/problems/maximum-number-of-words-found-in-sentences",
+          "tags": "easy;array;string"
+        },
+        "mini-parser": {
+          "name": "mini-parser",
+          "path": "leetcode\\string\\mini-parser.cpp",
+          "url": "https://leetcode.com/problems/mini-parser",
+          "tags": "medium;string"
+        },
+        "minimum-amount-of-time-to-collect-garbage": {
+          "name": "minimum-amount-of-time-to-collect-garbage",
+          "path": "leetcode\\string\\minimum-amount-of-time-to-collect-garbage.cpp",
+          "url": "https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage",
+          "tags": "medium;array;sorting;prefix-sum"
+        },
+        "minimum-time-to-type-word-using-special-typewriter": {
+          "name": "minimum-time-to-type-word-using-special-typewriter",
+          "path": "leetcode\\string\\minimum-time-to-type-word-using-special-typewriter.cpp",
+          "url": "https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter",
+          "tags": "string;greedy;easy"
+        },
+        "number-of-days-between-two-dates": {
+          "name": "number-of-days-between-two-dates",
+          "path": "leetcode\\string\\number-of-days-between-two-dates.cpp",
+          "url": "https://leetcode.com/problems/number-of-days-between-two-dates",
+          "tags": "easy;math;string"
+        },
+        "number-of-good-ways-to-split-a-string": {
+          "name": "number-of-good-ways-to-split-a-string",
+          "path": "leetcode\\string\\number-of-good-ways-to-split-a-string.cpp",
+          "url": "https://leetcode.com/problems/number-of-good-ways-to-split-a-string",
+          "tags": "medium;string;dynamic-programming;bit-manipulation"
+        },
+        "remove-all-adjacent-duplicates-in-string": {
+          "name": "remove-all-adjacent-duplicates-in-string",
+          "path": "leetcode\\string\\remove-all-adjacent-duplicates-in-string.cpp",
+          "url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string",
+          "tags": "easy;string;stack"
+        },
+        "remove-colored-pieces-if-both-neighbors-are-the-same-color": {
+          "name": "remove-colored-pieces-if-both-neighbors-are-the-same-color",
+          "path": "leetcode\\string\\remove-colored-pieces-if-both-neighbors-are-the-same-color.cpp",
+          "url": "https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color",
+          "tags": "medium;math;string;greedy;game-theory"
+        },
+        "remove-comments": {
+          "name": "remove-comments",
+          "path": "leetcode\\string\\remove-comments.cpp",
+          "url": "https://leetcode.com/problems/remove-comments",
+          "tags": "string;array;medium"
+        },
+        "repeated-substring-pattern": {
+          "name": "repeated-substring-pattern",
+          "path": "leetcode\\string\\repeated-substring-pattern.cpp",
+          "url": "https://leetcode.com/problems/repeated-substring-pattern",
+          "tags": "easy;string;string-matching"
+        },
+        "restore-ip-addresses": {
+          "name": "restore-ip-addresses",
+          "path": "leetcode\\string\\restore-ip-addresses.cpp",
+          "url": "https://leetcode.com/problems/restore-ip-addresses",
+          "tags": "string;backtracking;medium"
+        },
+        "shuffle-string": {
+          "name": "shuffle-string",
+          "path": "leetcode\\string\\shuffle-string.cpp",
+          "url": "https://leetcode.com/problems/shuffle-string",
+          "tags": "easy;array;string"
+        },
+        "split-a-string-into-the-max-number-of-unique-substrings": {
+          "name": "split-a-string-into-the-max-number-of-unique-substrings",
+          "path": "leetcode\\string\\split-a-string-into-the-max-number-of-unique-substrings.cpp",
+          "url": "https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings",
+          "tags": "hash-table;string;backtracking;medium"
+        },
+        "splitting-a-string-into-descending-consecutive-values": {
+          "name": "splitting-a-string-into-descending-consecutive-values",
+          "path": "leetcode\\string\\splitting-a-string-into-descending-consecutive-values.cpp",
+          "url": "https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values",
+          "tags": "medium;string;backtracking"
+        },
+        "string-compression": {
+          "name": "string-compression",
+          "path": "leetcode\\string\\string-compression.cpp",
+          "url": "https://leetcode.com/problems/string-compression",
+          "tags": "medium;two-pointers;string"
+        },
+        "the-number-of-full-rounds-you-have-played": {
+          "name": "the-number-of-full-rounds-you-have-played",
+          "path": "leetcode\\string\\the-number-of-full-rounds-you-have-played.cpp",
+          "url": "https://leetcode.com/problems/the-number-of-full-rounds-you-have-played",
+          "tags": "math;string;medium"
+        },
+        "three-consecutive-odds": {
+          "name": "three-consecutive-odds",
+          "path": "leetcode\\string\\three-consecutive-odds.cpp",
+          "url": "https://leetcode.com/problems/three-consecutive-odds",
+          "tags": "easy;array"
+        },
+        "unique-morse-code-words": {
+          "name": "unique-morse-code-words",
+          "path": "leetcode\\string\\unique-morse-code-words.cpp",
+          "url": "https://leetcode.com/problems/unique-morse-code-words",
+          "tags": "array;hash-table;string;easy"
+        }
+      },
+      "tree": {
+        "101_symmetric_tree": {
+          "name": "101_symmetric_tree",
+          "path": "leetcode\\tree\\101_symmetric_tree.cpp",
+          "url": "https://leetcode.com/problems/symmetric-tree",
+          "tags": "easy;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "102_binary_tree_level_order_traversal": {
+          "name": "102_binary_tree_level_order_traversal",
+          "path": "leetcode\\tree\\102_binary_tree_level_order_traversal.cpp",
+          "url": "https://leetcode.com/problems/binary-tree-level-order-traversal",
+          "tags": "medium;tree;breadth-first-search;binary-tree"
+        },
+        "104_maximum_depth_of_binary_tree": {
+          "name": "104_maximum_depth_of_binary_tree",
+          "path": "leetcode\\tree\\104_maximum_depth_of_binary_tree.cpp",
+          "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree",
+          "tags": "easy;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "105_binary-tree-from-preorder-and-inorder-traversal": {
+          "name": "105_binary-tree-from-preorder-and-inorder-traversal",
+          "path": "leetcode\\tree\\105_binary-tree-from-preorder-and-inorder-traversal.cpp",
+          "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal",
+          "tags": "medium;array;hash-table;divide-and-conquer;tree;binary-tree"
+        },
+        "106_binary-tree-from-inorder-and-postorder-traversal": {
+          "name": "106_binary-tree-from-inorder-and-postorder-traversal",
+          "path": "leetcode\\tree\\106_binary-tree-from-inorder-and-postorder-traversal.cpp",
+          "url": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal",
+          "tags": "medium;array;hash-table;divide-and-conquer;tree;binary-tree"
+        },
+        "112_path_sum": {
+          "name": "112_path_sum",
+          "path": "leetcode\\tree\\112_path_sum.cpp",
+          "url": "https://leetcode.com/problems/path-sum",
+          "tags": "easy;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "144_binary_tree_preorder_traversal": {
+          "name": "144_binary_tree_preorder_traversal",
+          "path": "leetcode\\tree\\144_binary_tree_preorder_traversal.cpp",
+          "url": "https://leetcode.com/problems/binary-tree-preorder-traversal",
+          "tags": "easy;stack;tree;depth-first-search;binary-tree"
+        },
+        "145_binary_tree_postorder_traversal": {
+          "name": "145_binary_tree_postorder_traversal",
+          "path": "leetcode\\tree\\145_binary_tree_postorder_traversal.cpp",
+          "url": "https://leetcode.com/problems/binary-tree-postorder-traversal",
+          "tags": "easy;stack;tree;depth-first-search;binary-tree"
+        },
+        "199_serialize_binary_tree": {
+          "name": "199_serialize_binary_tree",
+          "path": "leetcode\\tree\\199_serialize_binary_tree.cpp",
+          "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree",
+          "tags": "string;depth-first-search;breadth-first-search;design;binary-tree;hard"
+        },
+        "94_binary_tree_inorder_traversal": {
+          "name": "94_binary_tree_inorder_traversal",
+          "path": "leetcode\\tree\\94_binary_tree_inorder_traversal.cpp",
+          "url": "https://leetcode.com/problems/binary-tree-inorder-traversal",
+          "tags": "easy;stack;tree;depth-first-search;binary-tree"
+        },
+        "add-one-row-to-tree": {
+          "name": "add-one-row-to-tree",
+          "path": "leetcode\\tree\\add-one-row-to-tree.cpp",
+          "url": "https://leetcode.com/problems/add-one-row-to-tree",
+          "tags": "medium;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "all-elements-in-two-binary-search-trees": {
+          "name": "all-elements-in-two-binary-search-trees",
+          "path": "leetcode\\tree\\all-elements-in-two-binary-search-trees.cpp",
+          "url": "https://leetcode.com/problems/all-elements-in-two-binary-search-trees",
+          "tags": "medium;tree;depth-first-search;binary-search-tree;sorting;binary-tree"
+        },
+        "binary-search-tree-iterator": {
+          "name": "binary-search-tree-iterator",
+          "path": "leetcode\\tree\\binary-search-tree-iterator.cpp",
+          "url": "https://leetcode.com/problems/binary-search-tree-iterator",
+          "tags": "medium;stack;tree;design;binary-search-tree;binary-tree;iterator"
+        },
+        "binary-tree-maximum-path-sum": {
+          "name": "binary-tree-maximum-path-sum",
+          "path": "leetcode\\tree\\binary-tree-maximum-path-sum.cpp",
+          "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum",
+          "tags": "hard;dynamic-programming;tree;depth-first-search;binary-tree"
+        },
+        "binary-tree-pruning": {
+          "name": "binary-tree-pruning",
+          "path": "leetcode\\tree\\binary-tree-pruning.cpp",
+          "url": "https://leetcode.com/problems/binary-tree-pruning",
+          "tags": "medium;tree;depth-first-search;binary-tree"
+        },
+        "binary-tree-right-side-view": {
+          "name": "binary-tree-right-side-view",
+          "path": "leetcode\\tree\\binary-tree-right-side-view.cpp",
+          "url": "https://leetcode.com/problems/binary-tree-right-side-view",
+          "tags": "medium;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "binary-tree-zigzag-level-order-traversal": {
+          "name": "binary-tree-zigzag-level-order-traversal",
+          "path": "leetcode\\tree\\binary-tree-zigzag-level-order-traversal.cpp",
+          "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal",
+          "tags": "tree;breadth-first-search;binary-tree;medium"
+        },
+        "convert-bst-to-greater-tree": {
+          "name": "convert-bst-to-greater-tree",
+          "path": "leetcode\\tree\\convert-bst-to-greater-tree.cpp",
+          "url": "https://leetcode.com/problems/convert-bst-to-greater-tree",
+          "tags": "medium;tree;depth-first-search;binary-search-tree;binary-tree"
+        },
+        "convert-sorted-array-to-binary-search-tree": {
+          "name": "convert-sorted-array-to-binary-search-tree",
+          "path": "leetcode\\tree\\convert-sorted-array-to-binary-search-tree.cpp",
+          "url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree",
+          "tags": "easy;array;divide-and-conquer;tree;binary-search-tree;binary-tree"
+        },
+        "convert-sorted-list-to-binary-search-tree": {
+          "name": "convert-sorted-list-to-binary-search-tree",
+          "path": "leetcode\\tree\\convert-sorted-list-to-binary-search-tree.cpp",
+          "url": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree",
+          "tags": "medium;linked-list;divide-and-conquer;tree;binary-search-tree;binary-tree"
+        },
+        "count-good-nodes-in-binary-tree": {
+          "name": "count-good-nodes-in-binary-tree",
+          "path": "leetcode\\tree\\count-good-nodes-in-binary-tree.cpp",
+          "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree",
+          "tags": "medium;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "cousins-in-binary-tree": {
+          "name": "cousins-in-binary-tree",
+          "path": "leetcode\\tree\\cousins-in-binary-tree.cpp",
+          "url": "https://leetcode.com/problems/cousins-in-binary-tree",
+          "tags": "easy;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "create-binary-tree-from-descriptions": {
+          "name": "create-binary-tree-from-descriptions",
+          "path": "leetcode\\tree\\create-binary-tree-from-descriptions.cpp",
+          "url": "https://leetcode.com/problems/create-binary-tree-from-descriptions",
+          "tags": "medium;array;hash-table;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "delete-leaves-with-a-given-value": {
+          "name": "delete-leaves-with-a-given-value",
+          "path": "leetcode\\tree\\delete-leaves-with-a-given-value.cpp",
+          "url": "https://leetcode.com/problems/delete-leaves-with-a-given-value",
+          "tags": "medium;tree;depth-first-search;binary-tree"
+        },
+        "diameter-of-binary-tree": {
+          "name": "diameter-of-binary-tree",
+          "path": "leetcode\\tree\\diameter-of-binary-tree.cpp",
+          "url": "https://leetcode.com/problems/diameter-of-binary-tree",
+          "tags": "easy;tree;depth-first-search;binary-tree"
+        },
+        "even-odd-tree": {
+          "name": "even-odd-tree",
+          "path": "leetcode\\tree\\even-odd-tree.cpp",
+          "url": "https://leetcode.com/problems/even-odd-tree",
+          "tags": "medium;tree;breadth-first-search;binary-tree"
+        },
+        "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree": {
+          "name": "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree",
+          "path": "leetcode\\tree\\find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.cpp",
+          "url": "https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree",
+          "tags": "easy;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "find-mode-in-binary-search-tree": {
+          "name": "find-mode-in-binary-search-tree",
+          "path": "leetcode\\tree\\find-mode-in-binary-search-tree.cpp",
+          "url": "https://leetcode.com/problems/find-mode-in-binary-search-tree",
+          "tags": "easy;tree;depth-first-search;binary-search-tree;binary-tree"
+        },
+        "flatten-binary-tree-to-linked-list": {
+          "name": "flatten-binary-tree-to-linked-list",
+          "path": "leetcode\\tree\\flatten-binary-tree-to-linked-list.cpp",
+          "url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list",
+          "tags": "medium;linked-list;stack;tree;depth-first-search;binary-tree"
+        },
+        "flatten-nested-list-iterator": {
+          "name": "flatten-nested-list-iterator",
+          "path": "leetcode\\tree\\flatten-nested-list-iterator.cpp",
+          "url": "https://leetcode.com/problems/flatten-nested-list-iterator",
+          "tags": "medium;stack;depth-first-search;design;queue;iterator"
+        },
+        "house-robber-iii": {
+          "name": "house-robber-iii",
+          "path": "leetcode\\tree\\house-robber-iii.cpp",
+          "url": "https://leetcode.com/problems/house-robber-iii",
+          "tags": "medium;dynamic-programming;tree;depth-first-search;binary-tree"
+        },
+        "insert-into-a-binary-search-tree": {
+          "name": "insert-into-a-binary-search-tree",
+          "path": "leetcode\\tree\\insert-into-a-binary-search-tree.cpp",
+          "url": "https://leetcode.com/problems/insert-into-a-binary-search-tree",
+          "tags": "medium;tree;binary-search-tree;binary-tree"
+        },
+        "insufficient-nodes-in-root-to-leaf-paths": {
+          "name": "insufficient-nodes-in-root-to-leaf-paths",
+          "path": "leetcode\\tree\\insufficient-nodes-in-root-to-leaf-paths.cpp",
+          "url": "https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths",
+          "tags": "medium;tree;depth-first-search;binary-tree"
+        },
+        "invert-binary-tree": {
+          "name": "invert-binary-tree",
+          "path": "leetcode\\tree\\invert-binary-tree.cpp",
+          "url": "https://leetcode.com/problems/invert-binary-tree",
+          "tags": "easy;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "kth-largest-element-in-a-stream": {
+          "name": "kth-largest-element-in-a-stream",
+          "path": "leetcode\\tree\\kth-largest-element-in-a-stream.cpp",
+          "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream",
+          "tags": "easy;tree;design;binary-search-tree;priority-queue;binary-tree;data-stream"
+        },
+        "kth-smallest-element-in-a-bst": {
+          "name": "kth-smallest-element-in-a-bst",
+          "path": "leetcode\\tree\\kth-smallest-element-in-a-bst.cpp",
+          "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst",
+          "tags": "medium;tree;depth-first-search;binary-search-tree;binary-tree"
+        },
+        "largest-number-after-digit-swaps-by-parity": {
+          "name": "largest-number-after-digit-swaps-by-parity",
+          "path": "leetcode\\tree\\largest-number-after-digit-swaps-by-parity.cpp",
+          "url": "https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity",
+          "tags": "easy;sorting;priority-queue"
+        },
+        "leaf-similar-trees": {
+          "name": "leaf-similar-trees",
+          "path": "leetcode\\tree\\leaf-similar-trees.cpp",
+          "url": "https://leetcode.com/problems/leaf-similar-trees",
+          "tags": "easy;tree;depth-first-search;binary-tree"
+        },
+        "longest-path-with-different-adjacent-characters": {
+          "name": "longest-path-with-different-adjacent-characters",
+          "path": "leetcode\\tree\\longest-path-with-different-adjacent-characters.cpp",
+          "url": "https://leetcode.com/problems/longest-path-with-different-adjacent-characters",
+          "tags": "hard;array;string;tree;depth-first-search;graph;topological-sort"
+        },
+        "longest-univalue-path": {
+          "name": "longest-univalue-path",
+          "path": "leetcode\\tree\\longest-univalue-path.cpp",
+          "url": "https://leetcode.com/problems/longest-univalue-path",
+          "tags": "medium;tree;depth-first-search;binary-tree"
+        },
+        "lowest-common-ancestor-of-deepest-leaves": {
+          "name": "lowest-common-ancestor-of-deepest-leaves",
+          "path": "leetcode\\tree\\lowest-common-ancestor-of-deepest-leaves.cpp",
+          "url": "https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves",
+          "tags": "medium;hash-table;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "map-sum-pairs": {
+          "name": "map-sum-pairs",
+          "path": "leetcode\\tree\\map-sum-pairs.cpp",
+          "url": "https://leetcode.com/problems/map-sum-pairs",
+          "tags": "medium;hash-table;string;design;trie"
+        },
+        "maximum-binary-tree-ii": {
+          "name": "maximum-binary-tree-ii",
+          "path": "leetcode\\tree\\maximum-binary-tree-ii.cpp",
+          "url": "https://leetcode.com/problems/maximum-binary-tree-ii",
+          "tags": "medium;tree;binary-tree"
+        },
+        "maximum-difference-between-node-and-ancestor": {
+          "name": "maximum-difference-between-node-and-ancestor",
+          "path": "leetcode\\tree\\maximum-difference-between-node-and-ancestor.cpp",
+          "url": "https://leetcode.com/problems/maximum-difference-between-node-and-ancestor",
+          "tags": "medium;tree;depth-first-search;binary-tree"
+        },
+        "maximum-level-sum-of-a-binary-tree": {
+          "name": "maximum-level-sum-of-a-binary-tree",
+          "path": "leetcode\\tree\\maximum-level-sum-of-a-binary-tree.cpp",
+          "url": "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree",
+          "tags": "medium;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "merge-two-binary-trees": {
+          "name": "merge-two-binary-trees",
+          "path": "leetcode\\tree\\merge-two-binary-trees.cpp",
+          "url": "https://leetcode.com/problems/merge-two-binary-trees",
+          "tags": "easy;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "minimum-depth-of-binary-tree": {
+          "name": "minimum-depth-of-binary-tree",
+          "path": "leetcode\\tree\\minimum-depth-of-binary-tree.cpp",
+          "url": "https://leetcode.com/problems/minimum-depth-of-binary-tree",
+          "tags": "tree;breadth-first-search;binary-tree;easy"
+        },
+        "most-frequent-subtree-sum": {
+          "name": "most-frequent-subtree-sum",
+          "path": "leetcode\\tree\\most-frequent-subtree-sum.cpp",
+          "url": "https://leetcode.com/problems/most-frequent-subtree-sum",
+          "tags": "medium;hash-table;depth-first-search;tree;binary-tree"
+        },
+        "number-of-good-leaf-nodes-pairs": {
+          "name": "number-of-good-leaf-nodes-pairs",
+          "path": "leetcode\\tree\\number-of-good-leaf-nodes-pairs.cpp",
+          "url": "https://leetcode.com/problems/number-of-good-leaf-nodes-pairs",
+          "tags": "depth-first-search;breadth-first-search;medium;tree"
+        },
+        "operations-on-tree": {
+          "name": "operations-on-tree",
+          "path": "leetcode\\tree\\operations-on-tree.cpp",
+          "url": "https://leetcode.com/problems/operations-on-tree",
+          "tags": "medium;hash-table;depth-first-search;tree;design;breadth-first-search"
+        },
+        "path-sum-iii": {
+          "name": "path-sum-iii",
+          "path": "leetcode\\tree\\path-sum-iii.cpp",
+          "url": "https://leetcode.com/problems/path-sum-iii",
+          "tags": "tree;medium;depth-first-search;binary-tree"
+        },
+        "print-binary-tree": {
+          "name": "print-binary-tree",
+          "path": "leetcode\\tree\\print-binary-tree.cpp",
+          "url": "https://leetcode.com/problems/print-binary-tree",
+          "tags": "medium;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "same-tree": {
+          "name": "same-tree",
+          "path": "leetcode\\tree\\same-tree.cpp",
+          "url": "https://leetcode.com/problems/same-tree",
+          "tags": "easy;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "search-in-a-binary-search-tree": {
+          "name": "search-in-a-binary-search-tree",
+          "path": "leetcode\\tree\\search-in-a-binary-search-tree.cpp",
+          "url": "https://leetcode.com/problems/search-in-a-binary-search-tree",
+          "tags": "easy;tree;binary-search-tree;binary-tree"
+        },
+        "serialize-and-deserialize-bst": {
+          "name": "serialize-and-deserialize-bst",
+          "path": "leetcode\\tree\\serialize-and-deserialize-bst.cpp",
+          "url": "https://leetcode.com/problems/serialize-and-deserialize-bst",
+          "tags": "medium;string;tree;depth-first-search;breadth-first-search;design;binary-search-tree;binary-tree"
+        },
+        "smallest-string-starting-from-leaf": {
+          "name": "smallest-string-starting-from-leaf",
+          "path": "leetcode\\tree\\smallest-string-starting-from-leaf.cpp",
+          "url": "https://leetcode.com/problems/smallest-string-starting-from-leaf",
+          "tags": "medium;string;tree;depth-first-search;binary-tree"
+        },
+        "smallest-subtree-with-all-the-deepest-nodes": {
+          "name": "smallest-subtree-with-all-the-deepest-nodes",
+          "path": "leetcode\\tree\\smallest-subtree-with-all-the-deepest-nodes.cpp",
+          "url": "https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes",
+          "tags": "medium;hash-table;tree;depth-first-search;breadth-first-search;binary-tree"
+        },
+        "step-by-step-directions-from-a-binary-tree-node-to-another": {
+          "name": "step-by-step-directions-from-a-binary-tree-node-to-another",
+          "path": "leetcode\\tree\\step-by-step-directions-from-a-binary-tree-node-to-another.cpp",
+          "url": "https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another",
+          "tags": "medium;string;tree;depth-first-search;binary-tree"
+        },
+        "subtree-of-another-tree": {
+          "name": "subtree-of-another-tree",
+          "path": "leetcode\\tree\\subtree-of-another-tree.cpp",
+          "url": "https://leetcode.com/problems/subtree-of-another-tree",
+          "tags": "easy;tree;depth-first-search;string-matching;binary-tree;hash-function"
+        },
+        "sum-root-to-leaf-numbers": {
+          "name": "sum-root-to-leaf-numbers",
+          "path": "leetcode\\tree\\sum-root-to-leaf-numbers.cpp",
+          "url": "https://leetcode.com/problems/sum-root-to-leaf-numbers",
+          "tags": "medium;tree;depth-first-search;binary-tree"
+        },
+        "throne-inheritance": {
+          "name": "throne-inheritance",
+          "path": "leetcode\\tree\\throne-inheritance.cpp",
+          "url": "https://leetcode.com/problems/throne-inheritance",
+          "tags": "medium;hash-table;tree;depth-first-search;design"
+        },
+        "trim-a-binary-search-tree": {
+          "name": "trim-a-binary-search-tree",
+          "path": "leetcode\\tree\\trim-a-binary-search-tree.cpp",
+          "url": "https://leetcode.com/problems/trim-a-binary-search-tree",
+          "tags": "medium;tree;depth-first-search;binary-search-tree;binary-tree"
+        },
+        "two-sum-iv-input-is-a-bst": {
+          "name": "two-sum-iv-input-is-a-bst",
+          "path": "leetcode\\tree\\two-sum-iv-input-is-a-bst.cpp",
+          "url": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst",
+          "tags": "easy;hash-table;two-pointers;tree;depth-first-search;breadth-first-search;binary-search-tree;binary-tree"
+        },
+        "unique-binary-search-trees-ii": {
+          "name": "unique-binary-search-trees-ii",
+          "path": "leetcode\\tree\\unique-binary-search-trees-ii.cpp",
+          "url": "https://leetcode.com/problems/unique-binary-search-trees-ii",
+          "tags": "medium;dynamic-programming;backtracking;tree;binary-search-tree;binary-tree"
+        },
+        "unique-binary-search-trees": {
+          "name": "unique-binary-search-trees",
+          "path": "leetcode\\tree\\unique-binary-search-trees.cpp",
+          "url": "https://leetcode.com/problems/unique-binary-search-trees",
+          "tags": "medium;math;dynamic-programming;tree;binary-search-tree"
+        },
+        "vertical-order-traversal-of-a-binary-tree": {
+          "name": "vertical-order-traversal-of-a-binary-tree",
+          "path": "leetcode\\tree\\vertical-order-traversal-of-a-binary-tree.cpp",
+          "url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree",
+          "tags": "hard;hash-table;tree;depth-first-search;breadth-first-search;binary-tree"
+        }
+      }
+    },
+    "hackerrank": {
+      "dp": {
+        "abbreviation": {
+          "name": "abbreviation",
+          "path": "hackerrank\\dp\\abbreviation.cpp",
+          "url": "https://www.hackerrank.com/challenges/abbr/problem",
+          "tags": "dynamic-programming;string;medium"
+        },
+        "candies": {
+          "name": "candies",
+          "path": "hackerrank\\dp\\candies.cpp",
+          "url": "https://www.hackerrank.com/challenges/candies/problem",
+          "tags": "greedy;array;dynamic-programming"
+        },
+        "decibinary_numbers": {
+          "name": "decibinary_numbers",
+          "path": "hackerrank\\dp\\decibinary_numbers.cpp",
+          "url": "https://www.hackerrank.com/challenges/decibinary-numbers/problem",
+          "tags": "dynamic-programming;hard;unsolved"
+        },
+        "equal": {
+          "name": "equal",
+          "path": "hackerrank\\dp\\equal.cpp",
+          "url": "https://www.hackerrank.com/challenges/equal/problem",
+          "tags": "medium;dynamic-programming"
+        },
+        "highest_value_palindrome": {
+          "name": "highest_value_palindrome",
+          "path": "hackerrank\\dp\\highest_value_palindrome.cpp",
+          "url": "https://www.hackerrank.com/challenges/richie-rich/problem",
+          "tags": "dynamic-programming;string;medium"
+        },
+        "kingdom_division": {
+          "name": "kingdom_division",
+          "path": "hackerrank\\dp\\kingdom_division.cpp",
+          "url": "https://www.hackerrank.com/challenges/kingdom-division/problem",
+          "tags": "unsolved;dynamic-programming;medium"
+        },
+        "maxSubarraySum": {
+          "name": "maxSubarraySum",
+          "path": "hackerrank\\dp\\maxSubarraySum.cpp",
+          "url": "https://www.hackerrank.com/challenges/max-array-sum/problem",
+          "tags": "medium;array;dynamic-programming"
+        },
+        "sherlock_and_cost": {
+          "name": "sherlock_and_cost",
+          "path": "hackerrank\\dp\\sherlock_and_cost.cpp",
+          "url": "https://www.hackerrank.com/challenges/sherlock-and-cost/problem",
+          "tags": "dynamic-programming;medium"
+        }
+      },
+      "euler": {
+        "1_multiple3_5": {
+          "name": "1_multiple3_5",
+          "path": "hackerrank\\euler\\1_multiple3_5.cpp",
+          "url": "https://www.hackerrank.com/contests/projecteuler/challenges/euler001/copy-from/1303926766",
+          "tags": "easy;project-euler;math"
+        },
+        "2_even_fib": {
+          "name": "2_even_fib",
+          "path": "hackerrank\\euler\\2_even_fib.cpp",
+          "url": "https://www.hackerrank.com/contests/projecteuler/challenges/euler002/copy-from/1303926920",
+          "tags": "project-euler;math;easy"
+        },
+        "3_largest_prime": {
+          "name": "3_largest_prime",
+          "path": "hackerrank\\euler\\3_largest_prime.cpp",
+          "url": "https://www.hackerrank.com/contests/projecteuler/challenges/euler003/problem",
+          "tags": "project-euler;math;easy"
+        },
+        "4_largest_palindrome": {
+          "name": "4_largest_palindrome",
+          "path": "hackerrank\\euler\\4_largest_palindrome.cpp",
+          "url": "https://www.hackerrank.com/contests/projecteuler/challenges/euler004",
+          "tags": "project-euler;math;unsolved;medium"
+        }
+      },
+      "graph": {
+        "bfs_shortest_reach": {
+          "name": "bfs_shortest_reach",
+          "path": "hackerrank\\graph\\bfs_shortest_reach.cpp",
+          "url": "https://www.hackerrank.com/challenges/bfsshortreach/problem",
+          "tags": "graph;medium;breadth-first-search"
+        },
+        "dijkstra_shortest_reach": {
+          "name": "dijkstra_shortest_reach",
+          "path": "hackerrank\\graph\\dijkstra_shortest_reach.cpp",
+          "url": "https://www.hackerrank.com/challenges/dijkstrashortreach/problem",
+          "tags": "graph;hard;dijkstra"
+        },
+        "even_tree": {
+          "name": "even_tree",
+          "path": "hackerrank\\graph\\even_tree.cpp",
+          "url": "https://www.hackerrank.com/challenges/even-tree/problem",
+          "tags": "medium;graph"
+        },
+        "journey_to_the_moon": {
+          "name": "journey_to_the_moon",
+          "path": "hackerrank\\graph\\journey_to_the_moon.cpp",
+          "url": "https://www.hackerrank.com/challenges/journey-to-the-moon/problem",
+          "tags": "medium;graph"
+        },
+        "kruskal_mst": {
+          "name": "kruskal_mst",
+          "path": "hackerrank\\graph\\kruskal_mst.cpp",
+          "url": "https://www.hackerrank.com/challenges/kruskalmstrsub/problem",
+          "tags": "graph;medium"
+        },
+        "prim_mst": {
+          "name": "prim_mst",
+          "path": "hackerrank\\graph\\prim_mst.cpp",
+          "url": "https://www.hackerrank.com/challenges/primsmstsub/problem",
+          "tags": "medium;graph"
+        },
+        "roads_and_libraries": {
+          "name": "roads_and_libraries",
+          "path": "hackerrank\\graph\\roads_and_libraries.cpp",
+          "url": "https://www.hackerrank.com/challenges/torque-and-development/problem",
+          "tags": "graph;medium"
+        },
+        "snakes_and_ladders": {
+          "name": "snakes_and_ladders",
+          "path": "hackerrank\\graph\\snakes_and_ladders.cpp",
+          "url": "https://www.hackerrank.com/challenges/the-quickest-way-up/problem",
+          "tags": "graph;medium"
+        },
+        "story_of_tree": {
+          "name": "story_of_tree",
+          "path": "hackerrank\\graph\\story_of_tree.cpp",
+          "url": "https://www.hackerrank.com/challenges/the-story-of-a-tree/problem",
+          "tags": "graph;medium;unsolved"
+        },
+        "subset_component": {
+          "name": "subset_component",
+          "path": "hackerrank\\graph\\subset_component.cpp",
+          "url": "https://www.hackerrank.com/challenges/subset-component",
+          "tags": "unsolved;graph;hard"
+        }
+      },
+      "greedy": {
+        "greedy_florist": {
+          "name": "greedy_florist",
+          "path": "hackerrank\\greedy\\greedy_florist.cpp",
+          "url": "https://www.hackerrank.com/challenges/greedy-florist/problem",
+          "tags": "greedy;medium;array"
+        },
+        "grid_challenge": {
+          "name": "grid_challenge",
+          "path": "hackerrank\\greedy\\grid_challenge.cpp",
+          "url": "https://www.hackerrank.com/challenges/grid-challenge/problem",
+          "tags": "matrix;greedy;easy"
+        },
+        "luck_balance": {
+          "name": "luck_balance",
+          "path": "hackerrank\\greedy\\luck_balance.cpp",
+          "url": "https://www.hackerrank.com/challenges/luck-balance/problem",
+          "tags": "greedy;easy;matrix"
+        },
+        "max_perim_triangle": {
+          "name": "max_perim_triangle",
+          "path": "hackerrank\\greedy\\max_perim_triangle.cpp",
+          "url": "https://www.hackerrank.com/challenges/maximum-perimeter-triangle/problem",
+          "tags": "greedy;easy"
+        },
+        "merc_cakewalk": {
+          "name": "merc_cakewalk",
+          "path": "hackerrank\\greedy\\merc_cakewalk.cpp",
+          "url": "https://www.hackerrank.com/challenges/marcs-cakewalk/problem",
+          "tags": "easy;greedy"
+        },
+        "min_abs_dist": {
+          "name": "min_abs_dist",
+          "path": "hackerrank\\greedy\\min_abs_dist.cpp",
+          "url": "https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem",
+          "tags": "greedy;easy"
+        },
+        "reverse_shuffle_merge": {
+          "name": "reverse_shuffle_merge",
+          "path": "hackerrank\\greedy\\reverse_shuffle_merge.cpp",
+          "url": "https://www.hackerrank.com/challenges/reverse-shuffle-merge/problem",
+          "tags": "greedy;hard"
+        }
+      },
+      "impl": {
+        "3d_surface_area": {
+          "name": "3d_surface_area",
+          "path": "hackerrank\\impl\\3d_surface_area.cpp",
+          "url": "https://www.hackerrank.com/challenges/3d-surface-area/problem",
+          "tags": "implementation;medium;math"
+        },
+        "absolute_permutations": {
+          "name": "absolute_permutations",
+          "path": "hackerrank\\impl\\absolute_permutations.cpp",
+          "url": "https://www.hackerrank.com/challenges/absolute-permutation/problem",
+          "tags": "implementation;medium"
+        },
+        "acm_icpc_team": {
+          "name": "acm_icpc_team",
+          "path": "hackerrank\\impl\\acm_icpc_team.cpp",
+          "url": "https://www.hackerrank.com/challenges/acm-icpc-team/problem",
+          "tags": "implementation;easy"
+        },
+        "almost_sorted": {
+          "name": "almost_sorted",
+          "path": "hackerrank\\impl\\almost_sorted.cpp",
+          "url": "https://www.hackerrank.com/challenges/almost-sorted/problem",
+          "tags": "implementation;medium"
+        },
+        "append_and_delete": {
+          "name": "append_and_delete",
+          "path": "hackerrank\\impl\\append_and_delete.cpp",
+          "url": "https://www.hackerrank.com/challenges/append-and-delete/problem",
+          "tags": "implementation;easy"
+        },
+        "beautiful_triplets": {
+          "name": "beautiful_triplets",
+          "path": "hackerrank\\impl\\beautiful_triplets.cpp",
+          "url": "https://www.hackerrank.com/challenges/beautiful-triplets/problem",
+          "tags": "implementation;easy"
+        },
+        "between_two_sets": {
+          "name": "between_two_sets",
+          "path": "hackerrank\\impl\\between_two_sets.cpp",
+          "url": "https://www.hackerrank.com/challenges/kangaroo/problem",
+          "tags": "implementation;easy"
+        },
+        "bigger_is_greater": {
+          "name": "bigger_is_greater",
+          "path": "hackerrank\\impl\\bigger_is_greater.cpp",
+          "url": "https://www.hackerrank.com/challenges/bigger-is-greater/problem",
+          "tags": "implementation;easy"
+        },
+        "birthday_bar": {
+          "name": "birthday_bar",
+          "path": "hackerrank\\impl\\birthday_bar.cpp",
+          "url": "https://www.hackerrank.com/challenges/the-birthday-bar/problem",
+          "tags": "implementation;easy"
+        },
+        "bit_array": {
+          "name": "bit_array",
+          "path": "hackerrank\\impl\\bit_array.cpp",
+          "url": "https://www.hackerrank.com/challenges/bitset-1/problem",
+          "tags": "bit-manipulation;hard"
+        },
+        "bomberman": {
+          "name": "bomberman",
+          "path": "hackerrank\\impl\\bomberman.cpp",
+          "url": "https://www.hackerrank.com/challenges/bomber-man/problem",
+          "tags": "implementation;medium"
+        },
+        "bon_appetit": {
+          "name": "bon_appetit",
+          "path": "hackerrank\\impl\\bon_appetit.cpp",
+          "url": "https://www.hackerrank.com/challenges/bon-appetit/problem",
+          "tags": "implementation;easy"
+        },
+        "breaking_the_records": {
+          "name": "breaking_the_records",
+          "path": "hackerrank\\impl\\breaking_the_records.cpp",
+          "url": "https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem",
+          "tags": "implementation;easy"
+        },
+        "car_and_mouse": {
+          "name": "car_and_mouse",
+          "path": "hackerrank\\impl\\car_and_mouse.cpp",
+          "url": "https://www.hackerrank.com/challenges/cats-and-a-mouse/problem",
+          "tags": "implementation;easy"
+        },
+        "cavity_map": {
+          "name": "cavity_map",
+          "path": "hackerrank\\impl\\cavity_map.cpp",
+          "url": "https://www.hackerrank.com/challenges/cavity-map/problem",
+          "tags": "implementation;easy"
+        },
+        "climbing_the_leaderboard": {
+          "name": "climbing_the_leaderboard",
+          "path": "hackerrank\\impl\\climbing_the_leaderboard.cpp",
+          "url": "https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem",
+          "tags": "easy;implementation"
+        },
+        "counting_valleys": {
+          "name": "counting_valleys",
+          "path": "hackerrank\\impl\\counting_valleys.cpp",
+          "url": "https://www.hackerrank.com/challenges/counting-valleys/problem",
+          "tags": "easy;implementation"
+        },
+        "cut_the_sticks": {
+          "name": "cut_the_sticks",
+          "path": "hackerrank\\impl\\cut_the_sticks.cpp",
+          "url": "https://www.hackerrank.com/challenges/cut-the-sticks/problem",
+          "tags": "implementation;easy"
+        },
+        "day_of_programmer": {
+          "name": "day_of_programmer",
+          "path": "hackerrank\\impl\\day_of_programmer.cpp",
+          "url": "https://www.hackerrank.com/challenges/day-of-the-programmer/problem",
+          "tags": "implementation;easy"
+        },
+        "deque": {
+          "name": "deque",
+          "path": "hackerrank\\impl\\deque.cpp",
+          "url": "https://www.hackerrank.com/challenges/deque-stl/problem",
+          "tags": "implementation;medium"
+        },
+        "divisible_sum_pairs": {
+          "name": "divisible_sum_pairs",
+          "path": "hackerrank\\impl\\divisible_sum_pairs.cpp",
+          "url": "https://www.hackerrank.com/challenges/divisible-sum-pairs/problem",
+          "tags": "implementation;easy"
+        },
+        "drawing_book": {
+          "name": "drawing_book",
+          "path": "hackerrank\\impl\\drawing_book.cpp",
+          "url": "https://www.hackerrank.com/challenges/drawing-book/problem",
+          "tags": "implementation;easy"
+        },
+        "ema_supercomputer": {
+          "name": "ema_supercomputer",
+          "path": "hackerrank\\impl\\ema_supercomputer.cpp",
+          "url": "https://www.hackerrank.com/challenges/two-pluses/problem",
+          "tags": "implementation;medium"
+        },
+        "encryption": {
+          "name": "encryption",
+          "path": "hackerrank\\impl\\encryption.cpp",
+          "url": "https://www.hackerrank.com/challenges/encryption/problem",
+          "tags": "medium;implementation"
+        },
+        "equalize": {
+          "name": "equalize",
+          "path": "hackerrank\\impl\\equalize.cpp",
+          "url": "https://www.hackerrank.com/challenges/equality-in-a-array/problem",
+          "tags": "implementation;easy"
+        },
+        "fair_rations": {
+          "name": "fair_rations",
+          "path": "hackerrank\\impl\\fair_rations.cpp",
+          "url": "https://www.hackerrank.com/challenges/fair-rations/problem",
+          "tags": "implementation;easy"
+        },
+        "flatland_space_stations": {
+          "name": "flatland_space_stations",
+          "path": "hackerrank\\impl\\flatland_space_stations.cpp",
+          "url": "https://www.hackerrank.com/challenges/flatland-space-stations/problem",
+          "tags": "implementation;easy"
+        },
+        "grid_search": {
+          "name": "grid_search",
+          "path": "hackerrank\\impl\\grid_search.cpp",
+          "url": "https://www.hackerrank.com/challenges/the-grid-search/problem",
+          "tags": "implementation;medium;matrix"
+        },
+        "happy_ladybug": {
+          "name": "happy_ladybug",
+          "path": "hackerrank\\impl\\happy_ladybug.cpp",
+          "url": "https://www.hackerrank.com/challenges/happy-ladybugs/problem",
+          "tags": "implementation;easy"
+        },
+        "insert_into_dll": {
+          "name": "insert_into_dll",
+          "path": "hackerrank\\impl\\insert_into_dll.cpp",
+          "url": "https://www.hackerrank.com/challenges/three-month-preparation-kit-insert-a-node-into-a-sorted-doubly-linked-list/problem",
+          "tags": "easy;linked-list"
+        },
+        "kangaroo": {
+          "name": "kangaroo",
+          "path": "hackerrank\\impl\\kangaroo.cpp",
+          "url": "https://www.hackerrank.com/challenges/kangaroo/problem",
+          "tags": "easy;implementation"
+        },
+        "larry_array": {
+          "name": "larry_array",
+          "path": "hackerrank\\impl\\larry_array.cpp",
+          "url": "https://www.hackerrank.com/challenges/larrys-array/problem",
+          "tags": "implementation;medium"
+        },
+        "lisa_workbook": {
+          "name": "lisa_workbook",
+          "path": "hackerrank\\impl\\lisa_workbook.cpp",
+          "url": "https://www.hackerrank.com/challenges/lisa-workbook/problem",
+          "tags": "easy;implementation"
+        },
+        "manasa_and_stones": {
+          "name": "manasa_and_stones",
+          "path": "hackerrank\\impl\\manasa_and_stones.cpp",
+          "url": "https://www.hackerrank.com/challenges/manasa-and-stones/problem",
+          "tags": "implementation;easy"
+        },
+        "matrix_rotations": {
+          "name": "matrix_rotations",
+          "path": "hackerrank\\impl\\matrix_rotations.cpp",
+          "url": "https://www.hackerrank.com/challenges/matrix-rotation-algo/problem",
+          "tags": "implementation;hard;matrix"
+        },
+        "messages_order": {
+          "name": "messages_order",
+          "path": "hackerrank\\impl\\messages_order.cpp",
+          "url": "https://www.hackerrank.com/challenges/messages-order/problem",
+          "tags": "implementation;medium"
+        },
+        "migratory_birds": {
+          "name": "migratory_birds",
+          "path": "hackerrank\\impl\\migratory_birds.cpp",
+          "url": "https://www.hackerrank.com/challenges/migratory-birds/problem",
+          "tags": "implementation;easy"
+        },
+        "minimum_distances": {
+          "name": "minimum_distances",
+          "path": "hackerrank\\impl\\minimum_distances.cpp",
+          "url": "https://www.hackerrank.com/challenges/minimum-distances/problem",
+          "tags": "implementation;easy"
+        },
+        "modified_kaprekar_number": {
+          "name": "modified_kaprekar_number",
+          "path": "hackerrank\\impl\\modified_kaprekar_number.cpp",
+          "url": "https://www.hackerrank.com/challenges/kaprekar-numbers/problem",
+          "tags": "easy;implementation"
+        },
+        "organizing_containers": {
+          "name": "organizing_containers",
+          "path": "hackerrank\\impl\\organizing_containers.cpp",
+          "url": "https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem",
+          "tags": "medium;implementation"
+        },
+        "picking_numbers": {
+          "name": "picking_numbers",
+          "path": "hackerrank\\impl\\picking_numbers.cpp",
+          "url": "https://www.hackerrank.com/challenges/picking-numbers/problem",
+          "tags": "implementation;easy"
+        },
+        "queen_attack_2": {
+          "name": "queen_attack_2",
+          "path": "hackerrank\\impl\\queen_attack_2.cpp",
+          "url": "https://www.hackerrank.com/challenges/queens-attack-2/problem",
+          "tags": "implementation;medium"
+        },
+        "sherlock_and_squares": {
+          "name": "sherlock_and_squares",
+          "path": "hackerrank\\impl\\sherlock_and_squares.cpp",
+          "url": "https://www.hackerrank.com/challenges/sherlock-and-squares/problem",
+          "tags": "implementation;easy"
+        },
+        "sock_merchant": {
+          "name": "sock_merchant",
+          "path": "hackerrank\\impl\\sock_merchant.cpp",
+          "url": "https://www.hackerrank.com/challenges/sock-merchant/problem",
+          "tags": "implementation;easy"
+        },
+        "strange_counter": {
+          "name": "strange_counter",
+          "path": "hackerrank\\impl\\strange_counter.cpp",
+          "url": "https://www.hackerrank.com/challenges/strange-code/problem",
+          "tags": "implementation;easy"
+        }
+      },
+      "mathematics": {
+        "points_on_line": {
+          "name": "points_on_line",
+          "path": "hackerrank\\mathematics\\points_on_line.cpp",
+          "url": "https://www.hackerrank.com/challenges/points-on-a-line/problem",
+          "tags": "math;geometry;easy"
+        },
+        "rectangular_game": {
+          "name": "rectangular_game",
+          "path": "hackerrank\\mathematics\\rectangular_game.cpp",
+          "url": "https://www.hackerrank.com/challenges/rectangular-game/problem",
+          "tags": "math;geometry;easy"
+        }
+      },
+      "recursion": {
+        "crossword_puzzle": {
+          "name": "crossword_puzzle",
+          "path": "hackerrank\\recursion\\crossword_puzzle.cpp",
+          "url": "https://www.hackerrank.com/challenges/crossword-puzzle/problem",
+          "tags": "recursion;medium"
+        },
+        "power_sum": {
+          "name": "power_sum",
+          "path": "hackerrank\\recursion\\power_sum.cpp",
+          "url": "https://www.hackerrank.com/challenges/the-power-sum/problem",
+          "tags": "recursion;medium"
+        },
+        "super_digit": {
+          "name": "super_digit",
+          "path": "hackerrank\\recursion\\super_digit.cpp",
+          "url": "https://www.hackerrank.com/challenges/recursive-digit-sum/problem",
+          "tags": "recursion;medium"
+        }
+      },
+      "search": {
+        "gridland_metro": {
+          "name": "gridland_metro",
+          "path": "hackerrank\\search\\gridland_metro.cpp",
+          "url": "https://www.hackerrank.com/challenges/gridland-metro/problem",
+          "tags": "medium;search"
+        },
+        "ice_cream_parlor": {
+          "name": "ice_cream_parlor",
+          "path": "hackerrank\\search\\ice_cream_parlor.cpp",
+          "url": "https://www.hackerrank.com/challenges/icecream-parlor/problem",
+          "tags": "search;easy"
+        },
+        "making_candies": {
+          "name": "making_candies",
+          "path": "hackerrank\\search\\making_candies.cpp",
+          "url": "https://www.hackerrank.com/challenges/making-candies/problem",
+          "tags": "search;hard"
+        },
+        "maximum_subarray_sum": {
+          "name": "maximum_subarray_sum",
+          "path": "hackerrank\\search\\maximum_subarray_sum.cpp",
+          "url": "https://www.hackerrank.com/challenges/maximum-subarray-sum/problem",
+          "tags": "hard;search"
+        },
+        "minimum_time_required": {
+          "name": "minimum_time_required",
+          "path": "hackerrank\\search\\minimum_time_required.cpp",
+          "url": "https://www.hackerrank.com/challenges/minimum-time-required/problem",
+          "tags": "medium;search"
+        },
+        "pairs": {
+          "name": "pairs",
+          "path": "hackerrank\\search\\pairs.cpp",
+          "url": "https://www.hackerrank.com/challenges/pairs/problem",
+          "tags": "search;medium"
+        },
+        "radio_transmitters": {
+          "name": "radio_transmitters",
+          "path": "hackerrank\\search\\radio_transmitters.cpp",
+          "url": "https://www.hackerrank.com/challenges/hackerland-radio-transmitters",
+          "tags": "search;medium"
+        },
+        "triple_sum": {
+          "name": "triple_sum",
+          "path": "hackerrank\\search\\triple_sum.cpp",
+          "url": "https://www.hackerrank.com/challenges/triple-sum/problem",
+          "tags": "medium;search;sorting"
+        }
+      },
+      "sorting": {
+        "insertion_sort1": {
+          "name": "insertion_sort1",
+          "path": "hackerrank\\sorting\\insertion_sort1.cpp",
+          "url": "https://www.hackerrank.com/challenges/insertionsort1/problem",
+          "tags": "sorting;easy"
+        },
+        "insertion_sort2": {
+          "name": "insertion_sort2",
+          "path": "hackerrank\\sorting\\insertion_sort2.cpp",
+          "url": "https://www.hackerrank.com/challenges/insertionsort2/problem",
+          "tags": "sorting;easy"
+        }
+      },
+      "stats": {
+        "binomial_distribution_2": {
+          "name": "binomial_distribution_2",
+          "path": "hackerrank\\stats\\binomial_distribution_2.cpp",
+          "url": "https://www.hackerrank.com/challenges/s10-binomial-distribution-2",
+          "tags": "math;easy"
+        },
+        "least_sq_regression": {
+          "name": "least_sq_regression",
+          "path": "hackerrank\\stats\\least_sq_regression.cpp",
+          "url": "https://www.hackerrank.com/challenges/s10-least-square-regression-line/problem",
+          "tags": "math;easy"
+        },
+        "spearman": {
+          "name": "spearman",
+          "path": "hackerrank\\stats\\spearman.cpp",
+          "url": "https://www.hackerrank.com/challenges/s10-spearman-rank-correlation-coefficient/problem",
+          "tags": ""
+        }
+      },
+      "string": {
+        "anagram": {
+          "name": "anagram",
+          "path": "hackerrank\\string\\anagram.cpp",
+          "url": "https://www.hackerrank.com/challenges/anagram/problem",
+          "tags": "string;easy"
+        },
+        "attribute_parser": {
+          "name": "attribute_parser",
+          "path": "hackerrank\\string\\attribute_parser.cpp",
+          "url": "https://www.hackerrank.com/challenges/attribute-parser/problem",
+          "tags": "string;medium"
+        },
+        "binary_beautiful_string": {
+          "name": "binary_beautiful_string",
+          "path": "hackerrank\\string\\binary_beautiful_string.cpp",
+          "url": "https://www.hackerrank.com/challenges/beautiful-binary-string/problem",
+          "tags": "string;easy"
+        },
+        "game_of_thrones": {
+          "name": "game_of_thrones",
+          "path": "hackerrank\\string\\game_of_thrones.cpp",
+          "url": "https://www.hackerrank.com/challenges/game-of-thrones/problem",
+          "tags": "string;easy"
+        },
+        "love_letter_mystery": {
+          "name": "love_letter_mystery",
+          "path": "hackerrank\\string\\love_letter_mystery.cpp",
+          "url": "https://www.hackerrank.com/challenges/the-love-letter-mystery/problem",
+          "tags": "string;easy"
+        },
+        "making_anagrams": {
+          "name": "making_anagrams",
+          "path": "hackerrank\\string\\making_anagrams.cpp",
+          "url": "https://www.hackerrank.com/challenges/making-anagrams/problem",
+          "tags": "string;easy"
+        },
+        "palindrome_index": {
+          "name": "palindrome_index",
+          "path": "hackerrank\\string\\palindrome_index.cpp",
+          "url": "https://www.hackerrank.com/challenges/palindrome-index/problem",
+          "tags": "string;easy"
+        },
+        "string_construction": {
+          "name": "string_construction",
+          "path": "hackerrank\\string\\string_construction.cpp",
+          "url": "https://www.hackerrank.com/challenges/string-construction/problem",
+          "tags": "string;easy"
+        },
+        "strong_password": {
+          "name": "strong_password",
+          "path": "hackerrank\\string\\strong_password.cpp",
+          "url": "https://www.hackerrank.com/challenges/strong-password/problem",
+          "tags": "string;easy"
+        },
+        "super_reduced_string": {
+          "name": "super_reduced_string",
+          "path": "hackerrank\\string\\super_reduced_string.cpp",
+          "url": "https://www.hackerrank.com/challenges/reduced-string/problem",
+          "tags": "string;easy"
+        }
+      },
+      "tree": {
+        "balanced_forest": {
+          "name": "balanced_forest",
+          "path": "hackerrank\\tree\\balanced_forest.cpp",
+          "url": "https://www.hackerrank.com/challenges/balanced-forest/problem",
+          "tags": "tree;hard;unsolved"
+        },
+        "huffman_decoding": {
+          "name": "huffman_decoding",
+          "path": "hackerrank\\tree\\huffman_decoding.cpp",
+          "url": "https://www.hackerrank.com/challenges/tree-huffman-decoding/problem",
+          "tags": "tree;medium"
+        },
+        "swap_nodes": {
+          "name": "swap_nodes",
+          "path": "hackerrank\\tree\\swap_nodes.cpp",
+          "url": "https://www.hackerrank.com/challenges/swap-nodes-algo/problem",
+          "tags": "tree;medium"
+        }
+      }
+    }
+  },
+  "tags": {
+    "easy": 113,
+    "array": 109,
+    "stack": 12,
+    "simulation": 8,
+    "hash-table": 34,
+    "matrix": 17,
+    "medium": 149,
+    "enumeration": 1,
+    "prefix-sum": 8,
+    "bit-manipulation": 12,
+    "counting": 6,
+    "design": 15,
+    "ordered-set": 3,
+    "binary-search": 10,
+    "sorting": 23,
+    "divide-and-conquer": 8,
+    "priority-queue": 9,
+    "quickselect": 3,
+    "hard": 31,
+    "dynamic-programming": 65,
+    "math": 49,
+    "geometry": 5,
+    "greedy": 36,
+    "sliding-window": 2,
+    "breadth-first-search": 36,
+    "queue": 3,
+    "randomized": 2,
+    "concurrency": 2,
+    "string": 102,
+    "backtracking": 6,
+    "monotonic-stack": 1,
+    "recursion": 8,
+    "suffix-array": 1,
+    "depth-first-search": 54,
+    "incomplete": 1,
+    "memoization": 1,
+    "bitmask": 1,
+    "combinatorics": 1,
+    "hash table": 1,
+    "graph": 36,
+    "tree": 137,
+    "binary-tree": 60,
+    "union-find": 2,
+    "shortest-path": 1,
+    "binary-indexed-tree": 1,
+    "segment-tree": 2,
+    "linked-list": 8,
+    "doubly-linked-list": 1,
+    "two-pointers": 3,
+    "linked_list": 3,
+    "number-theory": 1,
+    "interactive": 1,
+    "search": 19,
+    "hash-function": 3,
+    "set": 6,
+    "trie": 2,
+    "game-theory": 1,
+    "string-matching": 2,
+    "binary-search-tree": 15,
+    "iterator": 2,
+    "data-stream": 1,
+    "topological-sort": 1,
+    "leetcode": 408,
+    "unsolved": 6,
+    "dp": 8,
+    "project-euler": 4,
+    "euler": 4,
+    "dijkstra": 1,
+    "implementation": 43,
+    "impl": 45,
+    "mathematics": 2,
+    "": 1,
+    "stats": 3,
+    "hackerrank": 423
+  }
+}
