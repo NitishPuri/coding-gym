@@ -9,7 +9,8 @@
       margin: 0;
     }
   </style>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <title>Code Index</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="index.js"></script>
 
@@ -18,14 +19,27 @@
 <body>
   <div class="jumbotron">
     <div class="container text-center">
-      <h1>DSA</h1>
+      <h1>Code Index</h1>
       <p>Practice solutions for data structure and algorithm problems from some competetive coding portals.</p>
     </div>
+    <button id="theme-toggle" class="btn btn-default">Switch Theme</button>
   </div>
 
   <div class="container">
     <input id="search_input" class="form-control input-sm" type="text" placeholder="Search..">
     <br>
+    <ul id="list-view">
+      <!-- Expandable list will be populated here -->
+    </ul>
+    <script>
+      // Theme switching logic
+      const themeToggle = document.getElementById('theme-toggle');
+      themeToggle.addEventListener('click', () => {
+          document.body.classList.toggle('dark-theme');
+          document.body.classList.toggle('colorful-theme');
+      });
+  </script>
+
     <table class="table">
       <thead>
         <tr id='contents-header'></tr>
@@ -33,6 +47,7 @@
       <tbody id='contents'>
       </tbody>
     </table>
+    
   </div>
 
 </body>

@@ -3,7 +3,7 @@
 // Populate index.html
 //##
 
-function process_data(data) {
+function process_data_csv(data) {
     console.log("Processing csv")
     const all_lines = data.split(/\r\n|\n/);
     const headers = all_lines[0].split(',');
@@ -38,6 +38,30 @@ function process_data(data) {
 
 }
 
+function createTreeView(data, container) {
+    console.log("Creating tree view", data)
+    container.empty();
+    data.forEach(item => {
+        let li = $('<li></li>').addClass('tree-item');
+        let toggle = $('<span></span>').addClass('toggle').text('▶');
+        let text = $('<span></span>').addClass('item-text').text(`${item.platform} - ${item.title} (${item.difficulty})`);
+        let childrenContainer = $('<ul></ul>').addClass('nested');
+
+        if (item.children && item.children.length > 0) {
+            li.append(toggle);
+            toggle.on('click', function () {
+                childrenContainer.toggle();
+                toggle.text(toggle.text() === '▶' ? '▼' : '▶');
+            });
+        }
+        li.append(text);
+        childrenContainer.append(createTreeView(item.children || [], childrenContainer));
+        li.append(childrenContainer);
+        container.append(li);
+    });
+}
+
+
 $(document).ready(function () {
     console.log("Setting up search")
     // Setup search.
@@ -50,9 +74,22 @@ $(document).ready(function () {
     console.log("Search setup")
 
     // Read CSV.
-    $.get({
-        url: "index.csv",
-        dataType: "text",
-        success: process_data
+    $.get("static/index.csv", (data) => {
+        console.log("Processing CSV");
+        process_data_csv(data);
     })
+    // $.get({
+    //     url: "static/index.csv",
+    //     dataType: "text",
+    //     success: process_data_csv
+    // })
+
+    // Read JSON
+    // $.getJSON("static/index.json", process_data_json);
+    $.get("static/index.json", (data) => {
+        console.log("Processing JSON");
+        createTreeView(data, $('#contents'));
+    })
+    
+
 });
