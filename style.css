@@ -44,24 +44,6 @@ ul {
     list-style-type: none;
 }
 
-/* Style the caret/arrow */
-/* .collapsable {
-  cursor: pointer;
-  user-select: none;
-} */
-
-/* Create the caret/arrow with a unicode, and style it */
-/* .collapsable::before {
-  content: "\25B6";
-  color: black;
-  display: inline-block;
-  margin-right: 6px;
-} */
-
-/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
-/* .collapsable-down::before {
-  transform: rotate(90deg);
-} */
 
 /* Hide the nested list */
 .collapsed {
@@ -102,4 +84,67 @@ ul {
 .tag.active {
     background-color: #007bff;
     color: white;
+}
+
+/* Dark theme toggle styles */
+.theme-toggle-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+/* Dark theme styles */
+body.dark-theme {
+    background-color: #222;
+    color: #f5f5f5;
+}
+
+body.dark-theme .jumbotron {
+    background-color: #333;
+    color: #f5f5f5;
+}
+
+body.dark-theme .container input {
+    background-color: #444;
+    color: #f5f5f5;
+    border-color: #555;
+}
+
+body.dark-theme .tag {
+    background-color: #444;
+    color: #f5f5f5;
+}
+
+body.dark-theme .tag:hover {
+    background-color: #555;
+}
+
+body.dark-theme .tag.active {
+    background-color: #007bff;
+    color: white;
+}
+
+body.dark-theme .tree-category {
+    background-color: #333;
+    color: #f5f5f5;
+}
+
+body.dark-theme .tree-item {
+    background-color: #333;
+    color: #f5f5f5;
+}
+
+body.dark-theme a{
+    color: #8cdbbf;
+}
+
+body.dark-theme a:hover{
+    color: #8cdbbf;
+}
+
+body.dark-theme #theme-toggle {
+    background-color: #444;
+    color: #f5f5f5;
+    border-color: #555;
 }

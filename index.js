@@ -132,6 +132,29 @@ function filterByTags() {
     processCategoriesVisibility();
 }
 
+function setupDarkMode() {
+    // Check for saved theme preference or respect OS setting
+    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    const storedTheme = localStorage.getItem('theme');
+
+    // Apply theme based on stored preference or OS setting
+    if (storedTheme === 'dark' || (!storedTheme && prefersDarkScheme.matches)) {
+        document.body.classList.add('dark-theme');
+    }
+
+    // Theme toggle button click handler
+    $('#theme-toggle').click(function () {
+        document.body.classList.toggle('dark-theme');
+
+        // Save preference to localStorage
+        if (document.body.classList.contains('dark-theme')) {
+            localStorage.setItem('theme', 'dark');
+        } else {
+            localStorage.setItem('theme', 'light');
+        }
+    });
+}
+
 $(document).ready(function () {
     console.log('Setting up search');
     // Setup search.
@@ -152,6 +175,8 @@ $(document).ready(function () {
     });
 
     console.log('Search setup');
+
+    setupDarkMode();
 
     // Read JSON
     // $.getJSON("static/index.json", process_data_json);
