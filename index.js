@@ -79,6 +79,26 @@ function populateTags(data) {
     }
 }
 
+function processCategoriesVisibility() {
+    // Start from the deepest categories and work upward
+    const categories = $('.tree-category').toArray().reverse();
+
+    $(categories).each(function () {
+        // Check if this category has any visible items
+        const hasVisibleItems = $(this).find('.tree-item:visible').length > 0;
+        const hasVisibleCategories =
+            $(this).find('.tree-category:visible').length > 0;
+
+        if (!hasVisibleItems && !hasVisibleCategories) {
+            // This category is empty after filtering, hide it
+            $(this).hide();
+        } else {
+            // This category has visible content, show it
+            $(this).show();
+        }
+    });
+}
+
 function filterByTags() {
     const activeTags = $('.tag.active')
         .map(function () {
@@ -88,7 +108,7 @@ function filterByTags() {
 
     if (activeTags.length === 0) {
         // Show all items if no tags selected
-        $('.tree-item').show();
+        $('.tree-item, .tree-category').show();
         return;
     }
 
@@ -108,6 +128,8 @@ function filterByTags() {
             return to_show;
         })
         .show();
+
+    processCategoriesVisibility();
 }
 
 $(document).ready(function () {
@@ -125,6 +147,8 @@ $(document).ready(function () {
                 return text.indexOf(value) === -1;
             })
             .hide();
+
+        processCategoriesVisibility();
     });
 
     console.log('Search setup');
