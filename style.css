@@ -6,8 +6,11 @@ body {
 }
 
 .container {
-    max-width: 800px;
-    margin: auto;
+    width: 100%;
+    max-width: none;
+    padding: 0 15px;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 #search_input {
@@ -69,3 +72,34 @@ ul {
 /* .active {
   display: block;
 } */
+
+/* Tag Cloud Styles */
+.tag-cloud {
+    margin-bottom: 20px;
+}
+
+.tag-cloud .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #e9ecef;
+    color: #495057;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.tag:hover {
+    background-color: #dee2e6;
+}
+
+.tag.active {
+    background-color: #007bff;
+    color: white;
+}

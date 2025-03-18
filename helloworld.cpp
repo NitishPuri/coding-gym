@@ -1,17 +1,15 @@
 #include <iostream>
-#include <vector>
 #include <string>
+#include <vector>
 
 using namespace std;
 
-int main()
-{
+// test compiler
+int main() {
+  vector<string> msg{"Hello", "C++", "World", "from", "VS Code!"};
 
-    vector<string> msg{"Hello", "C++", "World", "from", "VS Code!"};
-
-    for (const string &word : msg)
-    {
-        cout << word << " ";
-    }
-    cout << endl;
+  for (const string &word : msg) {
+    cout << word << " ";
+  }
+  cout << endl;
 }
