@@ -54,17 +54,28 @@ function createTreeView(data, container) {
 }
 
 function populateTags(data) {
-    const tagCloud = $('#tag-cloud .tags');
+    const difficultyCloud = $('#tag-cloud #difficulty');
+    difficultyCloud.empty();
+
+    const tagCloud = $('#tag-cloud #tags');
     tagCloud.empty();
 
     console.log('Populating tags', data['tags']);
 
     for (const [tag, count] of Object.entries(data['tags'])) {
-        const tagElement = $('<span></span>')
-            .addClass('tag')
-            .data('tag', tag)
-            .text(`${tag} (${count})`);
-        tagCloud.append(tagElement);
+        if (tag == 'easy' || tag == 'medium' || tag == 'hard') {
+            const tagElement = $('<span></span>')
+                .addClass('tag')
+                .data('tag', tag)
+                .text(`${tag} (${count})`);
+            difficultyCloud.append(tagElement);
+        } else {
+            const tagElement = $('<span></span>')
+                .addClass('tag')
+                .data('tag', tag)
+                .text(`${tag} (${count})`);
+            tagCloud.append(tagElement);
+        }
     }
 }
 
