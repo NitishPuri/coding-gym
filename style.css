@@ -17,6 +17,11 @@ body {
     margin-bottom: 20px;
 }
 
+.tree-item-container {
+    padding: 5px 0;
+}
+
+
 .tree-category {
     padding: 10px;
     background-color: #ffffff; /* White background for categories */
@@ -28,6 +33,11 @@ body {
     padding: 10px;
     background-color: #ffffff; /* White background for categories */
     border-color: #ffffff;
+}
+
+.item-name {
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 .toggle {

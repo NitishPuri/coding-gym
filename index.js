@@ -34,13 +34,28 @@ function createTreeView_(data, container) {
             li.addClass('tree-category');
             li.addClass('toggle');
         } else {
-            let name = $('<a></a>').text(`${key}`).attr('href', item.path);
-            li.append(name);
-            let text = $('<span></span>').text(` - ${item.tags}   -   `);
-            li.append(text);
-            let url = $('<a></a>').attr('href', item.url).text(item.url);
-            li.append(url);
+            let itemContainer = $('<div class="tree-item-container"></div>');
 
+            let nameDiv = $('<div class="item-name"></div>');
+            let name = $('<a></a>').text(`${key}`).attr('href', item.path);
+            nameDiv.append(name);
+            itemContainer.append(nameDiv);
+
+            let tagsDiv = $('<div class="item-tags"></div>');
+            let tags = item.tags.split(';');
+            tagsDiv.append(' - ');
+            tags.forEach((tag) => {
+                tagsDiv.append($('<span></span>').text(tag));
+                tagsDiv.append(' - ');
+            });
+            itemContainer.append(tagsDiv);
+
+            let urlDiv = $('<div class="item-url"></div>');
+            let url = $('<a></a>').attr('href', item.url).text(item.url);
+            urlDiv.append(url);
+            itemContainer.append(urlDiv);
+
+            li.append(itemContainer);
             li.addClass('tree-item');
         }
 
