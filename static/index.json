@@ -86,6 +86,12 @@
           "url": "https://leetcode.com/problems/find-target-indices-after-sorting-array",
           "tags": "easy;binary-search;sorting;array"
         },
+        "find-the-number-of-good-pairs-ii": {
+          "name": "find-the-number-of-good-pairs-ii",
+          "path": "leetcode\\array\\find-the-number-of-good-pairs-ii.cpp",
+          "url": "https://leetcode.com/problems/find-the-number-of-good-pairs-ii",
+          "tags": "medium;array;hash-table"
+        },
         "game-of-life": {
           "name": "game-of-life",
           "path": "leetcode\\array\\game-of-life.cpp",
@@ -134,6 +140,18 @@
           "url": "https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging",
           "tags": "medium;greedy;sorting;array"
         },
+        "merge-sorted-array": {
+          "name": "merge-sorted-array",
+          "path": "leetcode\\array\\merge-sorted-array.cpp",
+          "url": "https://leetcode.com/problems/merge-sorted-array",
+          "tags": "easy;array;sorting"
+        },
+        "merge-two-2d-arrays-by-summing-values": {
+          "name": "merge-two-2d-arrays-by-summing-values",
+          "path": "leetcode\\array\\merge-two-2d-arrays-by-summing-values.cpp",
+          "url": "https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values",
+          "tags": "easy;array;hash-table;two-pointers"
+        },
         "minimum-adjacent-swaps-for-k-consecutive-ones": {
           "name": "minimum-adjacent-swaps-for-k-consecutive-ones",
           "path": "leetcode\\array\\minimum-adjacent-swaps-for-k-consecutive-ones.cpp",
@@ -145,6 +163,12 @@
           "path": "leetcode\\array\\minimum-operations-to-convert-number.cpp",
           "url": "https://leetcode.com/problems/minimum-operations-to-convert-number",
           "tags": "array;breadth-first-search;medium"
+        },
+        "minimum-operations-to-make-median-of-array-equal-to-k": {
+          "name": "minimum-operations-to-make-median-of-array-equal-to-k",
+          "path": "leetcode\\array\\minimum-operations-to-make-median-of-array-equal-to-k.cpp",
+          "url": "https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/description",
+          "tags": "medium;array;greedy;sorting"
         },
         "minimum-sum-of-squared-difference": {
           "name": "minimum-sum-of-squared-difference",
@@ -1880,13 +1904,13 @@
     }
   },
   "tags": {
-    "easy": 113,
-    "array": 109,
+    "easy": 115,
+    "array": 117,
     "stack": 12,
     "simulation": 8,
-    "hash-table": 34,
+    "hash-table": 36,
     "matrix": 17,
-    "medium": 149,
+    "medium": 151,
     "enumeration": 1,
     "prefix-sum": 8,
     "bit-manipulation": 12,
@@ -1894,7 +1918,7 @@
     "design": 15,
     "ordered-set": 3,
     "binary-search": 10,
-    "sorting": 23,
+    "sorting": 25,
     "divide-and-conquer": 8,
     "priority-queue": 9,
     "quickselect": 3,
@@ -1902,7 +1926,8 @@
     "dynamic-programming": 65,
     "math": 49,
     "geometry": 5,
-    "greedy": 36,
+    "greedy": 37,
+    "two-pointers": 4,
     "sliding-window": 2,
     "breadth-first-search": 36,
     "queue": 3,
@@ -1928,7 +1953,6 @@
     "segment-tree": 2,
     "linked-list": 8,
     "doubly-linked-list": 1,
-    "two-pointers": 3,
     "linked_list": 3,
     "number-theory": 1,
     "interactive": 1,
@@ -1942,7 +1966,7 @@
     "iterator": 2,
     "data-stream": 1,
     "topological-sort": 1,
-    "leetcode": 408,
+    "leetcode": 417,
     "unsolved": 6,
     "dp": 8,
     "project-euler": 4,
@@ -1953,6 +1977,6 @@
     "mathematics": 2,
     "": 1,
     "stats": 3,
-    "hackerrank": 423
+    "hackerrank": 426
   }
 }
